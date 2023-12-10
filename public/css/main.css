@@ -1,0 +1,71 @@
+@font-face {
+    font-family: estetik;
+    src: url("../fonts/esthetique.otf");
+    /* Perpetua Regular */
+}
+@font-face {
+    font-family: "Perpetua";
+    src: url("../fonts/PER_____.TTF");
+    /* Perpetua Regular */
+}
+@font-face {
+    font-family: "Perpetua Bold";
+    src: url("../fonts/PERB____.TTF");
+    /* Perpetua Bold */
+}
+@font-face {
+    font-family: "Perpetua Bold Italic";
+    src: url("../fonts/PERBI___.TTF");
+    /* Perpetua Bold italic */
+}
+@font-face {
+    font-family: "Perpetua Titling MT Bold";
+    src: url("../fonts/PERTIBD.TTF");
+    /* Perpetua Titling MT Bold */
+}
+@font-face {
+    font-family: "Perpetua Titling MT Light";
+    src: url("../fonts/PERTILI.TTF");
+    /* Perpetua Titling MT Light */
+}
+@font-face {
+    font-family: "Perpetua Italic";
+    src: url("../fonts/PERI____.TTF");
+    /* Perpetua Italic */
+}
+
+:root {
+    --primary: #432818;
+    --secondary: #ffe6a7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Perpetua"; */
+    /* width: 100%; */
+}
+.floating {
+    animation-name: floating;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, -20px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}

@@ -1,0 +1,367 @@
+a {
+    text-decoration: none;
+}
+
+.pembayaran-du {
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background-color: var(--primary);
+    color: var(--secondary);
+    /* text-align: center; */
+}
+
+.pembayaran-du .jdl-pembayaran-du {
+    text-align: center;
+    font-size: 1.8em;
+}
+.pembayaran-du .info-pembayaran-du {
+    text-align: center;
+    padding: 10px 300px;
+    font-weight: 300;
+}
+
+/* Card Start */
+.card-pembayaran-du {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.jdl-pendaftaran-card {
+    padding-top: 20px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.harga-pendaftaran {
+    /* padding-top: 10px; */
+    font-size: 1.9em;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #850001;
+}
+.list-ketentuan {
+    /* padding-top: 10px; */
+    font-size: 1em;
+    font-weight: 300;
+    color: #090909;
+}
+.list-ketentuan ul {
+    list-style: square;
+    padding: 10px 20px;
+    text-align: justify;
+}
+
+.btn-pembayaran button {
+    width: 230px;
+    height: 42px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    background: #ffda89;
+    margin-top: 5px;
+    border: 2px #ffda89 solid;
+    color: #252525;
+}
+.btn-pembayaran button:active {
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+.btn-pembayaran button:hover {
+    color: #ffda89;
+    border: 2px #ffda89 solid;
+    transition: ease-in-out 0.2s;
+    background: none;
+}
+
+/* Card Pendaftaran */
+.card-pendaftaran {
+    background-color: #f9f9f9;
+    width: 290px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+/* Card DU */
+.card-du {
+    background-color: #f9f9f9;
+    width: 290px;
+    height: 420px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.card-info {
+    background-color: #f9f9f9;
+    width: 270px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.card-info .desc-du {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+/* Card End */
+
+/* Narahubung Start */
+.narahubung {
+    height: 50vh;
+}
+.narahubung .jdl-narahubung {
+    text-align: center;
+    font-size: 1.3em;
+    margin-top: 50px;
+}
+
+.card-narahubung {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 190px;
+}
+.card-narahubung-wa:hover {
+    transform: scale(1.1);
+}
+.card-narahubung-wa {
+    background-color: #f9f9f9;
+    color: #090909;
+    width: 300px;
+    height: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.hubungi-saya {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.hubungi-saya img {
+    height: 20px;
+    padding-right: 10px;
+}
+/* Narahubung End */
+
+/* Popup Start */
+#popup-pembayaran-putra:target,
+#popup-pembayaran-putri:target,
+#popup-details:target {
+    opacity: 1;
+    visibility: visible;
+}
+#popup-pembayaran-putra:target .popup-pembayaran-putra,
+#popup-pembayaran-putri:target .popup-pembayaran-putri,
+#popup-details:target .popup-container {
+    opacity: 1;
+}
+
+.popup-pembayaran {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-pembayaran-putra,
+.popup-pembayaran-putri {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    opacity: 0;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    padding: 0 20px;
+
+    width: 50%;
+    height: 230px;
+    border-radius: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popup__header {
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #090909;
+    margin-bottom: 10px;
+}
+.popup__header p {
+    font-size: 1.3em;
+    font-weight: 500;
+    font-family: "Kanit", sans-serif;
+}
+
+.norekening {
+    display: flex;
+    justify-content: center;
+    margin: 2px 20px;
+}
+.popup__content .norek {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    background: #e6e5e5;
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.popup__content {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.popup__content p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.btn-popup {
+    position: absolute;
+    width: 90px;
+    height: 50px;
+    padding: 12px 33px;
+    border-radius: 10px;
+    border: 1px #850001 solid;
+    margin-left: 270px;
+    background-color: #850001;
+}
+.btn-popup p {
+    color: #f9f9f9;
+    font-size: 1em;
+}
+
+/* Pop Lainnya */
+.popup-details {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 30;
+
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-details .popup-container {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    opacity: 0;
+    transform: scale(1.1);
+    transition: all 0.5s;
+
+    width: 60%;
+    padding: 20px;
+    height: 465px;
+    border-radius: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popup-details .popup-container .list-ketentuan {
+    line-height: 30px;
+}
+
+.popup-header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #090909;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.popup-details .list-ketentuan span {
+    font-weight: 500;
+}
+
+.btn-ok {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-ok button {
+    text-align: center;
+    width: 70px;
+    height: 42px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    background: #850001;
+    margin-top: 5px;
+    border: 2px #850001 solid;
+    color: #f9f9f9;
+}
+.btn-ok button:active {
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+.btn-ok button:hover {
+    color: #850001;
+    border: 2px #850001 solid;
+    transition: ease-in-out 0.2s;
+    background: none;
+}
+
+.popup-close a:link,
+.popup-close a:visited {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    color: #252522;
+    font-size: 30px;
+    display: inline-block;
+    line-height: 1;
+    transition: all 0.2s;
+}
+.popup-close a:hover,
+.popup-close a:active {
+    color: #c9c9c9;
+}
+
+/* Popup End */

@@ -1,0 +1,87 @@
+/**
+ * Footer Start
+ *
+ * @format
+ */
+
+footer {
+    position: relative;
+    z-index: 100;
+    background-color: #432818;
+    height: auto;
+    padding: 30px;
+    color: var(--secondary);
+    /* position: fixed; */
+    box-shadow: 0px 0px 10px 0px #ffe6a7;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+}
+
+.footer-left {
+    width: 80%;
+    margin-right: 90px;
+    /* float: left; */
+}
+
+.footer-left .footer-logo img {
+    width: 180px;
+}
+
+/* .content-contact {
+  display: flex;
+} */
+
+.content-contact-alamat,
+.content-contact-telp,
+.content-contact-email {
+    display: flex;
+    padding-top: 20px;
+    margin-right: 30px;
+}
+
+.content-contact-alamat img,
+.content-contact-telp img,
+.content-contact-email img {
+    height: 25px;
+}
+
+.content-contact-alamat p,
+.content-contact-telp p,
+.content-contact-email p {
+    padding-left: 10px;
+    margin-right: 300px;
+}
+
+.footer-center {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: -300px;
+}
+
+.footer-center p {
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.social-media img {
+    height: 30px;
+}
+
+.social-media .in,
+.social-media .fb,
+.social-media .yt {
+    padding-left: 10px;
+}
+
+.footer-right {
+    margin-left: 200px;
+}
+/* Footer End */

@@ -1,0 +1,94 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.jurusan {
+    height: auto;
+}
+.jurusan-container {
+    padding-bottom: 30px;
+    background: #fff6c3;
+    width: 100%;
+}
+
+.jdl-jurusan {
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.jdl-jurusan h3 {
+    font-size: 1.4em;
+    line-height: 25px;
+}
+
+/* Card Start */
+.card-jurusan .row-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-jurusan .tengah {
+    margin: 0 110px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #f9f9f9;
+    overflow: hidden;
+    /* display: flex; */
+    /* flex-direction: column;
+  align-items: center; */
+    margin: 20px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.nama-fakultas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+}
+.nama-fakultas img {
+    width: 50px;
+    float: left;
+    padding-right: 10px;
+}
+.nama-fakultas p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.line span {
+    border: 1px #090909 dotted;
+    width: 220px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.prodi {
+    padding: 15px 10px;
+}
+.card .atas {
+    padding-top: 20px;
+}
+.prodi img {
+    width: 20px;
+    float: left;
+}
+.prodi p {
+    padding-left: 30px;
+    color: #090909;
+}
+/* Card End */

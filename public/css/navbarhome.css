@@ -1,0 +1,73 @@
+/**
+ * Navbar Start
+ *
+ * @format
+ */
+
+/* Buat Variabel */
+
+.logo img {
+    height: 35px;
+    float: left;
+    padding: 0 5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    top: 0px;
+    height: 9vh;
+    width: 100%;
+    padding: 0 5%;
+    background-color: var(--primary);
+    z-index: 20;
+    box-shadow: 0px 0px 7px 0px #ffe6a7;
+}
+
+.nav-menu ul li {
+    padding: 0 1.5rem;
+}
+nav ul li #active {
+    position: relative;
+    color: #ffe6a7;
+    /* border-radius: 10px; */
+    font-size: 1rem;
+    font-weight: 400;
+    display: inline-block;
+}
+
+li #active::after {
+    content: "";
+    background: #ffe6a7;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    border-radius: 8px;
+    transition: width 0.5s;
+}
+
+li #active:hover::after {
+    width: 100%;
+    background-color: #ffe6a7;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    background-color: black;
+    border-radius: 20px;
+}
+
+/* Navbar End */

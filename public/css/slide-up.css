@@ -1,0 +1,22 @@
+/* Scroll On Top */
+#scroll-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+#scroll-top-button:hover {
+    background-color: #444;
+    border: none;
+}
+
+#scroll-top-button img {
+    height: 10px;
+}
