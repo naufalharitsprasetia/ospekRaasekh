@@ -6,6 +6,21 @@
 
 @section('content')
     <!-- Hero Start -->
+    <div class="nav-hamburger">
+        <div class="nav-hamburger-menu">
+            <a href="#">Home</a>
+            <a href="#">Tentang Kami</a>
+            <a href="/kontak-kami">Kontak Kami</a>
+            <a href="/jurusan">Jurusan</a>
+            <a href="/development">Development</a>
+            <a href="/pembayaran-du">Pembayaran Daftar Ulang</a>
+            <a href="/timeline">Timeline</a>
+            <a href="#">Others</a>
+            <a href="#">Unit Kegiatan Mahasiswa</a>
+            <a href="#">Syarat Ospek</a>
+            <a href="#">Lokasi</a>
+        </div>
+    </div>
     <div class="hero" id="home">
         {{-- <div class="position-absolute" style="width: 100%" id="marquez">
         </div>
@@ -32,9 +47,10 @@
         </h3>
     </div>
     <!-- Hero End -->
+
     {{-- NAVBAR START --}}
-    <nav class="navbar justify-content-center py-0 position-sticky">
-        <!-- Menu -->
+    <nav class="navbar justify-content-center py-0 position-sticky overflow-auto">
+        <!-- Menu on Web Display -->
         <div class="nav-menu d-flex pt-2">
             <ul class="d-flex justify-content-center align-items-center">
                 <li><a href="/" id="active">Home</a></li>
@@ -46,12 +62,14 @@
                 <li><a href="/kontak-kami" id="active">Kontak Kami</a></li>
             </ul>
         </div>
+        {{-- Menu On Mobile Display --}}
 
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+        <div class="nav-menu-responsive ">
+            <a href="#home" class="logo"><img src="assets/logo-tulisan-raasekh.png" alt="logoku" />
+            </a>
+            <a href="#" id="hamburger-menu"><i class="bi bi-list" style=""></i></a>
         </div>
+        {{--  --}}
     </nav>
     {{-- NAVBAR END --}}
 
@@ -64,9 +82,9 @@
             </h2>
         </div>
         <div class="about-desc px-5 mx-5 pt-4">
-            <img src="/assets/bang-raasekh.png" class="floating" alt="" style="width: 50vw" data-aos="fade-up"
-                data-aos-duration="1000">
-            <p class="pt-4 fs-5 px-5 fw-normal" style="margin: 0 6.5rem"><span class="fw-bolder"
+            <img src="/assets/bang-raasekh.png" class="floating about-image" alt="" style="width: 50vw"
+                data-aos="fade-up" data-aos-duration="1000">
+            <p class="pt-4 fs-5 px-5 fw-normal responsive-p" style="margin: 0 6.5rem"><span class="fw-bolder"
                     style="color: #c6a477;">Ospek
                     RASSEKH
                 </span>adalah Orientasi mahasiswa baru dikenal
@@ -146,7 +164,8 @@
             </h2>
         </div>
         <div class="about-desc px-5 mx-5 pb-5" style="text-align: justify">
-            <p class="px-5 mx-5">Kata Raasekh diambil dari Bahasa arab (رَاسِخٌ) yang berarti kekokohan, solid,
+            <p class="px-5 mx-5 responsive-p">Kata Raasekh diambil dari Bahasa arab (رَاسِخٌ) yang berarti kekokohan,
+                solid,
                 dan
                 ketahanan
                 yang sulit
@@ -176,6 +195,7 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script src="/js/home.js"></script>
     <script src="/js/filosopi.js"></script>
     {{-- GSAP --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
