@@ -43,6 +43,10 @@
         rel="stylesheet">
     {{-- AOS --}}
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    {{-- Font Awesome --}}
+    <script src="https://kit.fontawesome.com/5d8dfb0173.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     {{-- Title --}}
     <title>OSPEK 2024 | RAASEKH</title>
     {{-- Logo --}}
@@ -59,4 +63,15 @@
             d.getElementsByTagName("head")[0].appendChild(s);
         })();
     </script> --}}
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "4d88f1fd-79dc-454e-9001-0deb3990003e";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
+    </script>
 </head>

@@ -38,7 +38,9 @@
     --primary: #432818;
     --secondary: #ffe6a7;
 }
-
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
 * {
     padding: 0;
     margin: 0;
@@ -67,5 +69,118 @@ body {
     }
     100% {
         transform: translate(0, -0px);
+    }
+}
+.background-terang {
+    background-color: #fff6c3 !important;
+}
+.background-gelap {
+    background-color: #432818 !important;
+}
+.tulisan-terang {
+    color: #ffe6a7 !important;
+}
+.tulisan-gelap {
+    color: #432818 !important;
+}
+.hover-breadcrumb:hover {
+    color: red !important;
+    text-decoration: underline;
+}
+.card-ukm {
+    width: 30% !important;
+    box-shadow: 0 0 14px 0px black;
+    transition: 1s;
+}
+.card-ukm:hover {
+    box-shadow: none;
+    transform: translateY(-1px);
+}
+.detail-btn-ukm {
+    transition: 1s;
+}
+.detail-btn-ukm:hover {
+    background-color: #432818 !important;
+    border: 2px solid #ffe6a7 !important;
+    color: #ffe6a7 !important;
+}
+.card-others {
+    box-shadow: 0 0 14px 0px black;
+    transition: 1s;
+}
+.card-others:hover {
+    box-shadow: none;
+    transform: translateY(-1px);
+    background-color: #ffe6a7 !important;
+    color: #432818 !important;
+}
+.card-others:hover h5 {
+    color: #432818 !important;
+}
+.border-coklat-muda {
+    border: 5px solid #fff6c3;
+    box-shadow: 0px 0px 12x 2px #fff6c3;
+}
+.card-others a div h5 {
+    text-align: right;
+    line-height: 2rem;
+}
+.nav-hamburger-menu {
+    display: none;
+}
+@media (max-width: 575.98px) {
+    .hamburger {
+        display: block !important;
+    }
+    /* .navbar {
+        justify-content: left !important;
+    } */
+    .nav-menu {
+        display: none !important;
+    }
+    .nav-menu-responsive {
+        display: block;
+        width: 100%;
+    }
+    #hamburger-menu {
+        color: var(--secondary);
+        font-size: 2rem;
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+    }
+    #hamburger-menu:hover {
+        color: white;
+    }
+    .nav-hamburger {
+        position: absolute;
+        top: 12%;
+        right: -100%;
+        background-color: #ffe6a7f1;
+        width: 43vw;
+        height: auto;
+        text-decoration: none;
+        padding-bottom: 3rem;
+        transition: 1s;
+        z-index: 999;
+        display: none;
+    }
+    .nav-hamburger.active {
+        right: 0;
+        display: block;
+    }
+    .nav-hamburger-menu {
+        display: block;
+        padding-left: 1rem;
+        padding-top: 2rem;
+        /* position: absolute;
+        bottom: 0; */
+        display: grid;
+        gap: 1.5rem;
+    }
+    .nav-hamburger-menu a {
+        font-family: Poppins, sans-serif;
+        font-weight: 500;
+        color: var(--primary);
     }
 }

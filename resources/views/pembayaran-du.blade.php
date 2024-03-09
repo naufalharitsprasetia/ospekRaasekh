@@ -7,11 +7,12 @@
 
 @section('content')
     <!-- Container Start -->
-    <div class="pembayaran-du">
-        <div class="jdl-pembayaran-du">
-            <h3>Informasi Biaya dan Daftar Ulang</h3>
-            <h3>Mahasiswa Baru UNIDA Gontor</h3>
+    <div class="pembayaran-du pt-4 pb-5 font-poppins">
+        <div class="title-pembayaran">
+            <h1 class="tulisan-terang text-center fw-bolder">Informasi Biaya dan Daftar Ulang</h1>
+            <h1 class="tulisan-terang text-center fw-bolder">Mahasiswa Baru UNIDA Gontor</h1>
         </div>
+
         <div class="info-pembayaran-du">
             <p>
                 Dipermaklumkan kepada segenap calon mahasiswa/i baru Universitas
@@ -19,33 +20,8 @@
             </p>
         </div>
 
-        <div class="card-pembayaran-du">
-            <!-- <div class="card-pendaftaran">
-                  <div class="jdl-pendaftaran-card">
-                    <p>Biaya Pendaftaran</p>
-                  </div>
-                  <div class="harga-pendaftaran">
-                    <h3>Rp 250.000</h3>
-                  </div>
-                  <div class="list-ketentuan">
-                    <ul>
-                      <li>Hanya untuk calon Mahasiswa/i Reguler (Non-Alumni Gontor)</li>
-                      <li>Biaya Pendaftaran dibayarkan selama periode pendaftaran.</li>
-                    </ul>
-                  </div>
-                  <div class="btn-pembayaran">
-                    <a href="#popup-pembayaran-putra">
-                      <button>Pembayaran Putra</button>
-                    </a>
-                  </div>
-                  <div class="btn-pembayaran">
-                    <a href="#popup-pembayaran-putri">
-                      <button>Pembayaran Putri</button>
-                    </a>
-                  </div>
-                </div> -->
-
-            <div class="card-du">
+        <div class="card-pembayaran-du font-poppins">
+            <div class="card-du border-coklat-muda">
                 <div class="jdl-pendaftaran-card">
                     <p>Biaya Daftar Ulang</p>
                 </div>
@@ -54,9 +30,9 @@
                 </div>
                 <div class="list-ketentuan">
                     <ul>
-                        <li>
+                        <li class="font-poppins">
                             Khusus calon mahasiswa/i <span>Jalur Khusus</span> (Alumni
-                            Gontor 2023)
+                            Gontor 2024)
                         </li>
                         <li>
                             Biaya Daftar Ulang akan dikembalikan sesuai dengan Prodi
@@ -79,18 +55,19 @@
                 </div>
             </div>
 
-            <div class="card-info">
+            <div class="card-info border-coklat-muda">
                 <div class="jdl-pendaftaran-card">
                     <p>Informasi Daftar Ulang</p>
                 </div>
                 <div class="desc-du">
                     <p>
                         Untuk informasi biaya daftar ulang mahasiswa baru Tahun Ajaran
-                        2023-2024 / 1444-1445, silahkan klik tombol dibawah ini
+                        2024-2025 / 1445-1446, silahkan klik tombol dibawah ini
                     </p>
                 </div>
                 <div class="btn-pembayaran">
-                    <a download href="assets/DU-MAHASISWA-BARU2023-2024.pdf">
+                    {{--  --}}
+                    <a href="https://drive.google.com/drive/folders/1Bs5X40OO1RNcW2ehMUz3K-B7vn2TJsP1" target="_blank">
                         <button>Download Daftar Ulang</button>
                     </a>
                 </div>
@@ -99,12 +76,12 @@
 
         <!-- Contact Start -->
         <div class="narahubung">
-            <div class="jdl-narahubung">
-                <h3>Narahubung</h3>
+            <div class="jdl-narahubung ">
+                <h3 class="text-decoration-underline mb-5">Narahubung</h3>
             </div>
             <div class="card-narahubung">
-                <a href="https://wa.me/6282115823355" target="_blank">
-                    <div class="card-narahubung-wa">
+                <a href="https://wa.me/6282115823355" target="_blank" class="text-decoration-none">
+                    <div class="card-narahubung-wa border-coklat-muda ">
                         <h3>Kampus Putra</h3>
                         <p>Al - Ustadz Nazha Muhammad Jundi</p>
                         <div class="hubungi-saya">
@@ -113,8 +90,8 @@
                         </div>
                     </div>
                 </a>
-                <a href="https://wa.me/6281393706221" target="_blank">
-                    <div class="card-narahubung-wa putri">
+                <a href="https://wa.me/6281393706221" target="_blank" class="text-decoration-none">
+                    <div class="card-narahubung-wa putri border-coklat-muda">
                         <h3>Kampus Putri</h3>
                         <p>Kantor Bagian Administrasi</p>
                         <div class="hubungi-saya">
@@ -182,11 +159,7 @@
             </div>
             <div class="popup__content">
                 <div class="list-ketentuan">
-                    <ul>
-                        <li>
-                            Khusus calon mahasiswa/i <span>Jalur Khusus</span> (Alumni
-                            Gontor 2023)
-                        </li>
+                    <ul style="line-height: 1.5rem;font-size: 0.8rem;">
                         <li>
                             <span>Putra</span> : Melunasi biaya daftar ulang dengan nominal
                             Rp. 8.375.000,- (Pendaftaran program studi tertinggi) ke
@@ -211,13 +184,14 @@
                         <li>Seluruh pembayaran dilakukan dengan metode transfer</li>
                         <li>
                             Calon mahasiswa/i baru Jalur Non Reguler
-                            <span>(Alumni KMI Gontor Non 2023)*</span> melunasi daftar ulang
+                            <span>(Alumni KMI Gontor Non 2024)*</span> melunasi daftar ulang
                             sesuai dengan pilihan prodi pertama.
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+
     </div>
     <!-- Pembayaran Popup End -->
 @endsection

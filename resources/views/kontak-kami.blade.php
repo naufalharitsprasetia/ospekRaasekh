@@ -7,23 +7,23 @@
 
 @section('content')
     <!-- Contact Us Start -->
-    <div class="contactUs">
-        <div class="title">
-            <p>Contact Us</p>
+    <div class="contactUs mt-0">
+        <div class="title-contact">
+            <h1 class="tulisan-gelap text-center fw-bolder">Kontak Kami</h1>
         </div>
         <div class="box">
             <!-- Form -->
             <div class="contact form">
-                <p>Send a Messages</p>
+                <p>Kirim Pesan</p>
                 <form>
                     <div class="formBox">
                         <div class="row50">
                             <div class="inputBox">
-                                <span>First Name</span>
+                                <span>Nama Depan</span>
                                 <input type="text" placeholder="" />
                             </div>
                             <div class="inputBox">
-                                <span>Last Name</span>
+                                <span>Nama Belakang</span>
                                 <input type="text" placeholder="" />
                             </div>
                         </div>
@@ -34,21 +34,21 @@
                                 <input type="text" placeholder="" />
                             </div>
                             <div class="inputBox">
-                                <span>Mobile Number</span>
+                                <span>Nomer Handphone</span>
                                 <input type="text" placeholder="" />
                             </div>
                         </div>
 
                         <div class="row100">
                             <div class="inputBox">
-                                <span>Messages</span>
-                                <textarea placeholder="Write your message here..."></textarea>
+                                <span>Pesan</span>
+                                <textarea placeholder="Tulis pesan anda disini..."></textarea>
                             </div>
                         </div>
 
                         <div class="row100">
-                            <div class="inputBox">
-                                <input type="submit" value="Send" class="submit" />
+                            <div class="inputBox ">
+                                <input type="submit" value="Kirim" class="submit background-gelap tulisan-terang" />
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
 
             <!-- Info Box -->
             <div class="contact info">
-                <p>Contact Info</p>
+                <p class="text-decoration-underline">Info Kontak</p>
                 <div class="infoBox">
                     <div>
                         <img src="assets/location.png" alt="" />

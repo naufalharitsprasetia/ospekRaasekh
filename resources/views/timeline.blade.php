@@ -8,24 +8,41 @@
 @section('content')
     <!-- Timeline Start -->
     <div class="jadwal">
-        <div class="jdl-timeline" id="timeline">
-            <h3>Jadwal Kegiatan</h3>
-            <h3>OSPEK 2024</h3>
-            <p>
+
+        <div class="title-pembayaran py-4">
+            <h1 class="tulisan-terang text-center fw-bolder">Jadwal Kegiatan</h1>
+            <h1 class="tulisan-terang text-center fw-bolder">OSPEK 2024</h1>
+            <p class="tulisan-terang text-center">
                 Yuk pantau terus jadwal kegiatan OSPEK, jangan sampai kelewat ya...
             </p>
         </div>
+
         <div class="timeline-agenda">
+
+            <div class="timeline-content yudisium-kelas-6" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date" style="text-align: end;">
+                    <span class="date-m">22 Maret 2024</span> <br />
+                    <span class="date-h">12 Ramadhan 1445</span>
+                </div>
+                <p class="desc">Yudisium Siswa Akhir KMI INTEGRATED GENERATION</p>
+            </div>
+
             <div class="timeline-content test" data-aos="fade-up">
                 <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
                     <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
                 </div>
 
                 <div class="date">
-                    <span class="date-m">3 - 21 April 2023</span> <br />
-                    <span class="date-h">12 Ramadhan - 30 Ramadhan 1444</span>
+                    <span class="date-m">23 Maret - 7 April 2024</span> <br />
+                    <span class="date-h">13 Ramadhan - 28 Ramadhan 1445</span>
                 </div>
                 <p class="desc">
                     Tes TOEFL & TOAFL, Minat Bakat dan Kepribadian (Online)
@@ -38,474 +55,223 @@
                     Link Tes Minat Bakat</a>
             </div>
 
-            <div class="timeline-content" data-aos="fade-up">
+            <div class="timeline-content awal-kedatangan" data-aos="fade-up">
                 <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
                     <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
                 </div>
 
                 <div class="date" style="text-align: end;">
-                    <span class="date-m">6 - 21 April 2023</span> <br />
-                    <span class="date-h">15 Ramadhan - 30 Ramadhan 1444</span>
+                    <span class="date-m">17 April 2024</span> <br />
+                    <span class="date-h">8 Syawwal 1445</span>
                 </div>
-                <p class="desc">Pendaftaran Mahasiswa Baru (by Admission System)</p>
+                <p class="desc">Awal Kedatangan Mahasiswa Baru</p>
             </div>
 
-            <div class="timeline-content" data-aos="fade-up">
+            <div class="timeline-content verivikasi-dan-kedatangan-akhir" data-aos="fade-up">
                 <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">6 April - 9 Mei 2023</span> <br />
-                    <span class="date-h">15 Ramadhan - 18 Syawwal 1444</span>
-                </div>
-                <p class="desc">Pembayaran Daftar Ulang</p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">28 - 30 April 2023</span><br />
-                    <span class="date-h">7 - 9 Syawwal 1444</span>
-                </div>
-                <p class="desc">
-                    Batas Akhir Kedatangan Mahasiswi Baru Reguler Kampus Mantingan
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">28 - 30 April 2023</span><br />
-                    <span class="date-h">7 - 9 Syawwal 1444</span>
-                </div>
-                <p class="desc">
-                    Batas Akhir Kedatangan Mahasiswa Baru Reguler Kampus Siman
-                </p>
-            </div>
-
-            <div class="timeline-content"data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">30 April 2023</span><br />
-                    <span class="date-h">9 Syawwal 1444</span>
-                </div>
-                <p class="desc">
-                    Verifikasi Data Mahasiswi Guru dan Reguler Kampus Mantingan
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">1 Mei 2023</span><br />
-                    <span class="date-h">10 Syawwal 1444</span>
-                </div>
-                <p class="desc">
-                    Verifikasi Data Mahasiswa Guru dan Reguler Kampus Siman
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date" style="text-align: end;">
-                    <span class="date-m">1 Mei 2023</span><br />
-                    <span class="date-h">10 Syawwal 1444</span>
-                </div>
-                <p class="desc">
-                    Upacara Pembukaan Tahun Ajaran Baru & Absensi Disiplin Kampus
-                    Mantingan
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!--             <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">2 Mei 2023</span><br />
-                    <span class="date-h">11 Syawwal 1444</span>
-                </div>
-                <p class="desc">
-                    Upacara Pembukaan Tahun Ajaran Baru & Absensi Disiplin Kampus Siman
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!--             <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date" style="text-align: end;">
-                    <span class="date-m">1 - 3 Mei 2023</span><br />
-                    <span class="date-h">10 - 12 Syawwal 1444</span>
-                </div>
-                <p class="desc">
-                    Briefing Kegiatan OSPEK secara Umum (Masa Pra Ospek)
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!--             <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date" style="text-align: end;">
-                    <span class="date-m">3 Mei 2023</span><br />
-                    <span class="date-h">12 Syawwal 1444</span>
-                </div>
-                <p class="desc">Interview Prodi Mahasiswa (Siman & Gontor)</p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!--             <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">3 Mei 2023</span><br />
-                    <span class="date-h">12 Syawwal 1444</span>
-                </div>
-                <p class="desc">
-                    Interview Prodi Mahasiswi Guru, Reguler dan Mahasiswa Kediri
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!--             <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date" style="text-align: end;">
-                    <span class="date-m">4 Mei 2023</span><br />
-                    <span class="date-h">13 Syawwal 1444</span>
-                </div>
-                <p class="desc">Pembukaan OSPEK 2023</p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!--             <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date" style="text-align: end;">
-                    <span class="date-m">4 Mei 2023 /</span>
-                    <span class="date-h">13 Syawwal 1444 </span><br />
-                    <span class="time">07.30 - 09.00</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Landasan Filosofi (Sejarah, Visi, Misi, dan Orientasi)
-                    UNIDA Gontor Sebagai Perguruan Tinggi Pesantren
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!--             <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">4 Mei 2023 /</span>
-                    <span class="date-h">13 Syawwal 1444 </span><br />
-                    <span class="time">09.30 - 11.00</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Penamaan Nilai - Nilai Pesantren Dalam Kehidupan
-                    Mahasiswa di UNIDA Gontor
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!--             <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">4 Mei 2023 /</span>
-                    <span class="date-h">13 Syawwal 1444</span><br />
-                    <span class="time">20.00 - 21.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Urgensi Islamisasi Ilmu Kontemporer Sebagai Branding
-                    UNIDA Gontor (Islamisasi)
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">5 Mei 2023 /</span>
-                    <span class="date-h">14 Syawwal 1444</span><br />
-                    <span class="time">20.00 - 21.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Pengenalan Program Kreatifitas Mahasiswa (PKM) dan
-                    Kiat - Kiat menjadi Mahasiswa yang Kreatif (LP2M)
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">6 Mei 2023 /</span>
-                    <span class="date-h">15 Syawwal 1444</span><br />
-                    <span class="time">09.00 - 10.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Sosialisasi DEMA dan UKM UNIDA Gontor
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">6 Mei 2023 /</span>
-                    <span class="date-h">15 Syawwal 1444</span><br />
-                    <span class="time">20.00 - 21.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Kepondokmodernan Sebagai Kunci Sukses menjadi
-                    Mahasiswa di UNIDA Gontor
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">7 Mei 2023 /</span>
-                    <span class="date-h">16 Syawwal 1444</span><br />
-                    <span class="time">07.00 - 08.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Pengenalan Program Angka Kredit Penunjang Akademik
-                    (AKPAM) UNIDA Gontor (DKP)
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">7 Mei 2023 /</span>
-                    <span class="date-h">16 Syawwal 1444</span><br />
-                    <span class="time">09.00 - 10.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Pengenalan Pelayanan Administrasi Akademik UNIDA
-                    Gontor (BAA)
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">7 Mei 2023 /</span>
-                    <span class="date-h">16 Syawwal 1444</span><br />
-                    <span class="time">20.00 - 21.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Pengenalan Program Pengembangan Bahasa UNIDA Gontor
-                    (DPB)
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <span class="tag-selesai">SELESAI</span>
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">8 Mei 2023 /</span>
-                    <span class="date-h">17 Syawwal 1444</span><br />
-                    <span class="time">07.00 - 08.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Eksplorasi E-Book di Masa Digitalisasi (PERPUSTAKAAN)
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <!-- <span class="tag-selesai">SELESAI</span> -->
-                    <span class="tag-progress">SEDANG BERLANGSUNG</span>
-                    <!-- <span class="tag-soon">AKAN DATANG</span> -->
-                </div>
-
-                <div class="date">
-                    <span class="date-m">8 Mei 2023 /</span>
-                    <span class="date-h">17 Syawwal 1444</span><br />
-                    <span class="time">09.00 - 10.30</span>
-                </div>
-                <p class="desc">
-                    Kuliah Umum - Pengenalan Program Tahfidz Serta Pembagian Kartu
-                    Hafalan (MQ)
-                </p>
-            </div>
-
-            <div class="timeline-content" data-aos="fade-up">
-                <div class="tag">
-                    <!-- <span class="tag-selesai">SELESAI</span> -->
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
                     <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
                     <span class="tag-soon">AKAN DATANG</span>
                 </div>
 
                 <div class="date">
-                    <span class="date-m">8 Mei 2023 /</span>
-                    <span class="date-h">17 Syawwal 1444</span><br />
-                    <span class="time">20.00 - 21.30</span>
+                    <span class="date-m">18 April 2024</span> <br />
+                    <span class="date-h">9 Syawwal 1445</span>
                 </div>
-                <p class="desc">
-                    Kuliah Umum - Pengenalan Layanan Pengembangan Kepribadian, Minat dan
-                    Bakat Mahasiswa (SADC)
-                </p>
+                <p class="desc">Verifikasi Awal Dan Akhir Kedatangan Mahasiswa Baru</p>
             </div>
 
-            <div class="timeline-content" data-aos="fade-up">
+            <div class="timeline-content akhir-verifikasi" data-aos="fade-up">
                 <div class="tag">
-                    <!-- <span class="tag-selesai">SELESAI</span> -->
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
                     <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
                     <span class="tag-soon">AKAN DATANG</span>
                 </div>
 
                 <div class="date">
-                    <span class="date-m">9 Mei 2023 /</span>
-                    <span class="date-h">18 Syawwal 1444</span><br />
-                    <span class="time">07.00 - 08.30</span>
+                    <span class="date-m">19 April 2024</span><br />
+                    <span class="date-h">10 Syawwal 1445</span>
                 </div>
                 <p class="desc">
-                    Kuliah Umum - Teknik Dasar dalam Berdiskusi dan Berdebat
+                    Akhir Verifikasi
                 </p>
             </div>
 
-            <div class="timeline-content" data-aos="fade-up">
+            <div class="timeline-content pengarahan-inverview" data-aos="fade-up">
                 <div class="tag">
-                    <!-- <span class="tag-selesai">SELESAI</span> -->
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
                     <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
                     <span class="tag-soon">AKAN DATANG</span>
                 </div>
 
                 <div class="date">
-                    <span class="date-m">9 Mei 2023 /</span>
-                    <span class="date-h">18 Syawwal 1444</span><br />
-                    <span class="time">09.00 - 10.30</span>
+                    <span class="date-m">19 April 2024</span><br />
+                    <span class="date-h">10 Syawwal 1445</span>
                 </div>
                 <p class="desc">
-                    Kuliah Umum - Jurus Ampuh Menjadi Mahasiswa Berprestasi dan Lolos
-                    Pilmapres Tingkat Nasional (PILMAPRES)
+                    Pengarahan Interview Prodi dan Ospek
                 </p>
             </div>
 
-            <div class="timeline-content" data-aos="fade-up">
+            <div class="timeline-content interview-prodi" data-aos="fade-up">
                 <div class="tag">
-                    <!-- <span class="tag-selesai">SELESAI</span> -->
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
                     <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
                     <span class="tag-soon">AKAN DATANG</span>
                 </div>
 
                 <div class="date">
-                    <span class="date-m">9 Mei 2023 /</span>
-                    <span class="date-h">18 Syawwal 1444</span><br />
-                    <span class="time">20.00 - 21.30</span>
+                    <span class="date-m">20 April 2024</span><br />
+                    <span class="date-h">11 Syawwal 1445</span>
                 </div>
                 <p class="desc">
-                    Kuliah Umum - Teknik Dasar Dalam Penulisan Karya Ilmiah
+                    Interview Prodi
                 </p>
             </div>
 
-            <div class="timeline-content" data-aos="fade-up">
+            <div class="timeline-content perfotoan" data-aos="fade-up">
                 <div class="tag">
-                    <!-- <span class="tag-selesai">SELESAI</span> -->
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
                     <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
                     <span class="tag-soon">AKAN DATANG</span>
                 </div>
 
                 <div class="date">
-                    <span class="date-m">10 Mei 2023 /</span>
-                    <span class="date-h">19 Syawwal 1444</span><br />
-                    <span class="time">20.00 - 22.30</span>
+                    <span class="date-m">22 April 2024</span><br />
+                    <span class="date-h">13 Syawwal 1445</span>
                 </div>
                 <p class="desc">
-                    Malam Keakraban dan <br />
-                    Penutupan OSPEK 2023
+                    Perfotoan Bersama Ospek 2024
                 </p>
             </div>
+
+            <div class="timeline-content yudisium-prodi" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date">
+                    <span class="date-m">23 April 2024</span><br />
+                    <span class="date-h">14 Syawwal 1445</span>
+                </div>
+                <p class="desc">
+                    Yudisium Prodi
+                </p>
+            </div>
+
+            <div class="timeline-content pembukaan-kuliah-umum" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date">
+                    <span class="date-m">24 April 2024</span><br />
+                    <span class="date-h">15 Syawwal 1445</span>
+                </div>
+                <p class="desc">
+                    Pmebukaan Kuliah Umum - Masa Kuliah Umum
+                </p>
+            </div>
+
+            <div class="timeline-content kuliah-umum-2" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date">
+                    <span class="date-m">25 April 2024</span><br />
+                    <span class="date-h">16 Syawwal 1445</span>
+                </div>
+                <p class="desc">
+                    Masa Kuliah Umum
+                </p>
+            </div>
+            <div class="timeline-content kuliah-umum-3" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date">
+                    <span class="date-m">27 April 2024</span><br />
+                    <span class="date-h">18 Syawwal 1445</span>
+                </div>
+                <p class="desc">
+                    Masa Kuliah Umum
+                </p>
+            </div>
+            <div class="timeline-content kuliah-umum-4" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date">
+                    <span class="date-m">28 April 2024</span><br />
+                    <span class="date-h">19 Syawwal 1445</span>
+                </div>
+                <p class="desc">
+                    Masa Kuliah Umum
+                </p>
+            </div>
+            <div class="timeline-content kuliah-umum-5" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date">
+                    <span class="date-m">29 April 2024</span><br />
+                    <span class="date-h">20 Syawwal 1445</span>
+                </div>
+                <p class="desc">
+                    Masa Kuliah Umum
+                </p>
+            </div>
+
+            <div class="timeline-content akhir-kuliah-umum" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date">
+                    <span class="date-m">30 April 2024</span><br />
+                    <span class="date-h">21 Syawwal 1445</span>
+                </div>
+                <p class="desc">
+                    Penutupan & Akhir Masa Kuliah Umum
+                </p>
+            </div>
+
+            <div class="timeline-content malam-keakraban" data-aos="fade-up">
+                <div class="tag">
+                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    <span class="tag-soon">AKAN DATANG</span>
+                </div>
+
+                <div class="date">
+                    <span class="date-m">1 Mei 2024</span><br />
+                    <span class="date-h">22 Syawwal 1445</span>
+                </div>
+                <p class="desc">
+                    Malam Keakraban
+                </p>
+            </div>
+
         </div>
     </div>
     <!-- Timeline End -->
@@ -519,7 +285,7 @@
 
     <!-- Script Scroll Top Start -->
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
-
+    {{-- 
     <script>
         const scrollToTopButton = document.getElementById("scroll-top-button");
 
@@ -537,7 +303,7 @@
                 behavior: "smooth"
             });
         });
-    </script>
+    </script> --}}
     <!-- Script Scroll Top End -->
     <script src="js/cekTanggal.js"></script>
 @endsection

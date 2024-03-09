@@ -167,7 +167,7 @@
     /* Card DU */
     .card-du {
         width: 250px;
-        height: 310px;
+        /* height: 310px; */
         transition: none;
     }
 
@@ -175,7 +175,7 @@
     .card-info {
         width: 250px;
         padding: 20px 10px;
-        height: 210px;
+        /* height: 210px; */
         transition: none;
     }
     .card-info .desc-du {
@@ -204,21 +204,21 @@
         display: block;
         margin: 20px 65px;
     }
-    .card-narahubung-wa:hover,
+    /* .card-narahubung-wa:hover,
     .text-box:hover {
         transform: none;
-    }
+    } */
     .card-narahubung-wa {
         margin-top: 20px;
         width: 260px;
-        height: 100px;
+        /* height: 100px; */
         font-size: 0.8em;
         padding: 10px 20px;
     }
 
     /* Popup Pembayaran */
     .popup-pembayaran {
-        height: 102vh;
+        height: 100vh;
     }
     .popup-pembayaran-putra,
     .popup-pembayaran-putri {
@@ -245,9 +245,9 @@
         left: 5%;
         transform: none;
         transition: none;
-
+        height: 90vh;
         width: 90%;
-        height: 780px;
+        /* height: 780px; */
     }
     .popup-header {
         color: #090909;
@@ -268,10 +268,10 @@
         align-items: center;
         flex-direction: column;
     }
-    .card-narahubung-wa:hover,
+    /* .card-narahubung-wa:hover,
     .text-box:hover {
         transform: none;
-    }
+    } */
     .card-narahubung-wa {
         margin-top: 20px;
         width: 260px;

@@ -17,6 +17,8 @@
     <meta name="google-site-verification" content="JjUwJyzJWxnAF7JZBSCckMU-d3dQlYpPqfHYj25n5lo" />
     <!-- home.css -->
     @yield('css')
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- main.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/css/main.css" />
@@ -32,10 +34,19 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     {{-- Title --}}
     <title>OSPEK 2024 | RAASEKH</title>
+    {{-- Bootstrap --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    {{-- Font Awesome --}}
+    <script src="https://kit.fontawesome.com/5d8dfb0173.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     {{-- Logo --}}
     <link rel="shortcut icon" href="assets/logo-raasekh.png" type="image/x-icon" />
     {{-- LiveChat --}}
-    <script type="text/javascript">
+    {{-- ARDENA --}}
+    {{-- <script type="text/javascript">
         window.$crisp = [];
         window.CRISP_WEBSITE_ID = "af85fc02-072c-4180-9365-b08d59e17341";
         (function() {
@@ -45,5 +56,18 @@
             s.async = 1;
             d.getElementsByTagName("head")[0].appendChild(s);
         })();
+    </script> --}}
+    {{-- OSPEK RAASEKH --}}
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "4d88f1fd-79dc-454e-9001-0deb3990003e";
+        (function() {
+            d = document;
+            s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js";
+            s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();
     </script>
+
 </head>

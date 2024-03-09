@@ -20,9 +20,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
+    /* height: 5rem; */
     width: 100%;
-    padding: 0 5%;
+    /* padding: 0 5%; */
     background-color: var(--primary);
     z-index: 20;
     position: fixed;
@@ -77,7 +77,7 @@ li #active:hover::after {
     height: 2px;
     margin: 5px 0;
     transition: all 0.3s ease;
-    background-color: black;
+    background-color: #ffe6a7;
     border-radius: 20px;
 }
 

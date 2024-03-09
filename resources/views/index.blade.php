@@ -9,16 +9,12 @@
     <div class="nav-hamburger">
         <div class="nav-hamburger-menu">
             <a href="#">Home</a>
-            <a href="#">Tentang Kami</a>
             <a href="/kontak-kami">Kontak Kami</a>
             <a href="/jurusan">Jurusan</a>
-            <a href="/development">Development</a>
+            {{-- <a href="/development">Development</a> --}}
             <a href="/pembayaran-du">Pembayaran Daftar Ulang</a>
             <a href="/timeline">Timeline</a>
-            <a href="#">Others</a>
-            <a href="#">Unit Kegiatan Mahasiswa</a>
-            <a href="#">Syarat Ospek</a>
-            <a href="#">Lokasi</a>
+            <a href="/lainnya">Lainnya</a>
         </div>
     </div>
     <div class="hero" id="home">
@@ -49,17 +45,19 @@
     <!-- Hero End -->
 
     {{-- NAVBAR START --}}
-    <nav class="navbar justify-content-center py-0 position-sticky overflow-auto">
+    <nav class="navbar justify-content-center py-0 position-sticky">
         <!-- Menu on Web Display -->
         <div class="nav-menu d-flex pt-2">
             <ul class="d-flex justify-content-center align-items-center">
-                <li><a href="/" id="active">Home</a></li>
-                <li><a href="/timeline" id="active">Jadwal</a></li>
+                <li><a href="/jurusan" id="active">Jurusan</a></li>
+                <li><a href="/timeline" id="active">Timeline</a></li>
+                <li><a href="/" id="active">Barang Persiapan</a></li>
                 <!-- Logo -->
                 <a href="#home" class="logo"><img src="assets/logo-tulisan-raasekh.png" alt="logoku" />
                 </a>
-                <li><a href="/pembayaran-du" id="active">Lainnya</a></li>
+                <li><a href="/pembayaran-du" id="active">Pembayaran DU</a></li>
                 <li><a href="/kontak-kami" id="active">Kontak Kami</a></li>
+                <li><a href="/lainnya" class="" id="active">Daftar Halaman</a></li>
             </ul>
         </div>
         {{-- Menu On Mobile Display --}}
@@ -190,8 +188,7 @@
             </p>
         </div>
     </div>
-    {{-- NAMA FILOSOFI E --}}
-    {{-- swiper js --}}
+    {{-- NAMA FILOSOFI  --}}
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

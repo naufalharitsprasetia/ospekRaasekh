@@ -132,8 +132,8 @@ a {
 }
 
 .tag-selesai {
-    background-color: #850001;
-    color: #f9f9f9;
+    background-color: var(--primary);
+    color: var(--secondary);
     padding: 6px 10px;
     border-radius: 7px;
 }
@@ -160,7 +160,7 @@ a {
     font-size: 15px;
 }
 .date-h {
-    color: #850001;
+    color: var(--primary);
 }
 .time {
     color: #151414;

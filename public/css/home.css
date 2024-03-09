@@ -5,7 +5,8 @@ ul {
 a {
     text-decoration: none;
 }
-.nav-menu-responsive {
+.nav-menu-responsive,
+.nav-hamburger-menu {
     display: none;
 }
 
@@ -137,9 +138,6 @@ button:hover {
         padding-left: 0 !important ;
         padding-right: 0 !important ;
     }
-    .nav-menu {
-        display: none !important;
-    }
     .about-image {
         width: 95vw !important;
     }
@@ -152,12 +150,15 @@ button:hover {
     .filosopi-text h2 {
         font-size: 2rem !important;
     }
-    .navbar {
-        justify-content: left !important;
-    }
     .logo img {
         height: 44px !important;
         padding-left: 1rem !important;
+    }
+    .navbar {
+        justify-content: left !important;
+    }
+    .nav-menu {
+        display: none !important;
     }
     .nav-menu-responsive {
         display: block;
@@ -180,13 +181,16 @@ button:hover {
         background-color: #ffe6a7f1;
         width: 43vw;
         height: 100vh;
-        transition: 0.3s;
+        transition: 1s;
         z-index: 999;
+        display: none;
     }
     .nav-hamburger.active {
         right: 0;
+        display: block;
     }
     .nav-hamburger-menu {
+        display: block;
         padding-left: 1rem;
         padding-bottom: 1rem;
         position: absolute;

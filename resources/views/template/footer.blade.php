@@ -34,7 +34,7 @@
                   <p>Social Media</p>
                   <div class="social-media">
                       <div class="ig">
-                          <a href="https://www.instagram.com/ospek.2023/" target="_blank"><img src="assets/ig.png"
+                          <a href="https://www.instagram.com/ospek.2024/" target="_blank"><img src="assets/ig.png"
                                   alt="" /></a>
                       </div>
                       <div class="in">
@@ -46,7 +46,7 @@
                                   src="assets/fb.png" alt="" /></a>
                       </div>
                       <div class="yt">
-                          <a href="https://www.youtube.com/watch?v=LkM0EQjiVyM" target="_blank"><img src="assets/yt.png"
+                          <a href="https://www.youtube.com/@ospekunida5252" target="_blank"><img src="assets/yt.png"
                                   alt="" /></a>
                       </div>
                   </div>
@@ -66,6 +66,7 @@
 
   {{--  --}}
   <script src="js/navbar.js"></script>
+  <script src="js/home.js"></script>
   <!-- Script Scroll Top Start -->
   <script>
       const scrollToTopButton = document.getElementById("scroll-top-button");

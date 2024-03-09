@@ -31,3 +31,21 @@ Route::get('/pembayaran-du', function () {
 Route::get('/timeline', function () {
     return view('timeline');
 });
+Route::get('/lainnya', function () {
+    return view('lain-lain');
+});
+Route::get('/ukm', function () {
+    return view('ukm');
+});
+Route::get('/ukm-putri', function () {
+    return view('ukm-putri');
+});
+Route::get('/persiapan-barang', function () {
+    return view('persiapan-barang');
+});
+Route::get('/profil-unida', function () {
+    return view('profil-unida');
+});
+Route::get('/seragam-unida', function () {
+    return view('seragam-unida');
+});
