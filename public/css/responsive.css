@@ -309,13 +309,13 @@
 
     .card-jurusan .tengah {
         margin: 20px auto;
-        height: 240px;
+        /* height: 240px; */
     }
 
     .card-1,
     .card-3 {
         margin: 0 auto;
-        height: 240px;
+        /* height: 240px; */
     }
 
     .nama-fakultas img {

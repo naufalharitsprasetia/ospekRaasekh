@@ -51,11 +51,11 @@
             <ul class="d-flex justify-content-center align-items-center">
                 <li><a href="/jurusan" id="active">Jurusan</a></li>
                 <li><a href="/timeline" id="active">Timeline</a></li>
-                <li><a href="/" id="active">Barang Persiapan</a></li>
+                <li><a href="/pembayaran-du" id="active">Pembayaran DU</a></li>
                 <!-- Logo -->
                 <a href="#home" class="logo"><img src="assets/logo-tulisan-raasekh.png" alt="logoku" />
                 </a>
-                <li><a href="/pembayaran-du" id="active">Pembayaran DU</a></li>
+                <li><a href="/profil-unida" id="active">Profil Unida</a></li>
                 <li><a href="/kontak-kami" id="active">Kontak Kami</a></li>
                 <li><a href="/lainnya" class="" id="active">Daftar Halaman</a></li>
             </ul>

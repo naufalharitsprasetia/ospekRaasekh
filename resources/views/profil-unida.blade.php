@@ -185,6 +185,55 @@
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Visi, Misi & Tujuan
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>VISI : </strong> <br>
+                            Menjadi Universitas bersistem pesantren yang bermutu dan berarti, sebagai pusat pengembangan
+                            ilmu pengetahuan yang berorientasi pada Islamisasi ilmu pengetahuan kontemporer dan sebagai
+                            pusat kajian bahasa Al-Qur’an untuk kesejahteraan umat manusia.
+                            <br><br>
+                            <strong>MISI : </strong> <br>
+                            <ul class="mt-2" style="list-style-type: disc;">
+                                <li>Menyelenggarakan Pendidikan, Penelitian, dan Pengabdian Kepada Masyarakat dalam kerangka
+                                    Islamisasi Ilmu Pengetahuan kontemporer dan pengembangan bahasa Al-Qur’an;
+                                </li>
+                                <li>Mengebangkan sistem Perguruan Tinggi pesantren sebagai basis kehidupan kampus dalam
+                                    rangka mengembangkan berbagai kompetensi yang sesuai dengan tuntutan masyarakat;</li>
+                                <li>Membangun kerjasama dengan berbagai pihak di dalam dan di luar negeri dalam rangka
+                                    mengembangkan Tri Dharma perguruan tinggi, pengembangan SDM, dan penguatan jaringan
+                                    kerja.</li>
+                            </ul>
+                            <br><br>
+                            <strong>TUJUAN : </strong> <br>
+                            <ul class="mt-2" style="list-style-type: disc;">
+                                <li>Terselenggaranya Pendidikan, Penelitian, dan Pengabdian Kepada Masyarakat dalam kerangka
+                                    Islamisasi Ilmu Pengetahuan kontemporer dan pengembangan bahasa Al-Qur’an;
+                                </li>
+                                <li>Dihasilkannya insan yang beriman, berakhlaq mulia, berpengetahuan luas, berfikiran
+                                    kreatif, menguasai 15 kompetensi dasar yang meliputi: Creativity and Innovation,
+                                    Analytical thinking, Cognitive Flexibility, Critical Thinking, Complex Problem Solving,
+                                    Discipline and Moral Consciousness, Sincerity and Service Orientation, Islamic
+                                    Brotherhood, Social Commitment, Emotional Intelligent, Coordinating with others,
+                                    Negotiation, Judgment and Decision making, Leadership and Social Influence, dan
+                                    Self-Reliance yang mampu mengamalkan ilmunya secara kreatif, inovatif dan profesional,
+                                    serta sanggup berkompetisi di tingkat Nasional maupun Internasional.</li>
+                                <li>Terjalin kerjasama dalam berbagai bidang dengan berbagai pihak, baik dalam maupun luar
+                                    negeri dalam rangka mengembangkan Tridharma perguruan tinggi, pengembangan SDM, dan
+                                    penguatan jaringan kerja.</li>
+                            </ul>
+                            <br>
+                            <a href="https://unida.gontor.ac.id/id/visi-misi-tujuan-dan-sasaran-strategis-universitas-darussalam-gontor/"
+                                target="_blank">Read More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -8,11 +8,12 @@
     <!-- Jurusan Start -->
     <div class="jurusan">
         <div class="jurusan-container">
-            <div class="title-jurusan py-3">
+            <div class="title-jurusan pt-3">
                 <h1 class="tulisan-gelap text-center fw-bolder">Jurusan</h1>
                 <h1 class="tulisan-gelap text-center fw-bolder">Universitas Darussalam</h1>
+                <hr>
             </div>
-            <div class="card-jurusan">
+            <div class="card-jurusan font-poppins">
                 <div class="row-1">
                     <div class="card-1">
                         <div class="nama-fakultas">

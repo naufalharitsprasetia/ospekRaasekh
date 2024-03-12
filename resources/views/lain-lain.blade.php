@@ -1,8 +1,7 @@
 @extends('template.main')
 
 @section('css')
-    <!-- Kontak Kami CSS -->
-    <link rel="stylesheet" href="css/kontak-kami.css" />
+    {{-- <link rel="stylesheet" href="css/kontak-kami.css" /> --}}
 @endsection
 
 @section('content')
@@ -13,7 +12,7 @@
             <p class="tulisan-gelap text-center fw-bolder">NB : Klik Pada Kotak Untuk Mengunjungi Halaman </p>
         </div>
         <hr>
-        <div class="container mx-2 my-2 ">
+        <div class="container-fluid mx-2 my-2 ">
             <div class="row d-flex justify-content-around">
                 {{-- Card 1 --}}
                 <div class="card card-others background-gelap mb-3 col-3 mx-2 my-2">

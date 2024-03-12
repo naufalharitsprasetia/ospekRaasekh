@@ -129,6 +129,17 @@ body {
     display: none;
 }
 @media (max-width: 575.98px) {
+    /* Card Barang */
+    .card-barang {
+        width: 100% !important;
+    }
+    /* Halaman Lainnya */
+    .card-others {
+        width: 100% !important;
+    }
+    .card-ukm {
+        width: 100% !important;
+    }
     .hamburger {
         display: block !important;
     }
