@@ -49,3 +49,9 @@ Route::get('/profil-unida', function () {
 Route::get('/seragam-unida', function () {
     return view('seragam-unida');
 });
+Route::get('/galeri', function () {
+    return view('galeri');
+});
+Route::get('/struktur', function () {
+    return view('struktur');
+});

@@ -86,6 +86,26 @@
                 {{-- End --}}
                 {{-- Card 1 --}}
                 <div class="card card-others background-gelap mb-3 col-3 mx-2 my-2">
+                    <a href="/galeri" class="tulisan-terang text-decoration-none">
+                        <div class="card-body">
+                            <h5 class="card-title tulisan-terang"><i class="fa-solid fa-images fa-xl"
+                                    style="color: #fff6c3;"></i> Galeri</h5>
+                        </div>
+                    </a>
+                </div>
+                {{-- End --}}
+                {{-- Card 1 --}}
+                <div class="card card-others background-gelap mb-3 col-3 mx-2 my-2">
+                    <a href="/struktur" class="tulisan-terang text-decoration-none">
+                        <div class="card-body">
+                            <h5 class="card-title tulisan-terang"><i class="fa-solid fa-sitemap fa-xl"
+                                    style="color: #fff6c3;"></i> Struktur Kepanitiaan</h5>
+                        </div>
+                    </a>
+                </div>
+                {{-- End --}}
+                {{-- Card 1 --}}
+                <div class="card card-others background-gelap mb-3 col-3 mx-2 my-2">
                     <a href="https://linktr.ee/Ospekunida2024" target="_blank" class="tulisan-terang text-decoration-none">
                         <div class="card-body">
                             <h5 class="card-title tulisan-terang"><i class="fa-solid fa-link fa-xl"

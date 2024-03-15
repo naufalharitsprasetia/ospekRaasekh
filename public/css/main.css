@@ -59,6 +59,12 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+.floating-reverse {
+    animation-name: floating-reverse;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
 
 @keyframes floating {
     0% {
@@ -69,6 +75,17 @@ body {
     }
     100% {
         transform: translate(0, -0px);
+    }
+}
+@keyframes floating-reverse {
+    0% {
+        transform: translate(0, -0px);
+    }
+    50% {
+        transform: translate(0, 20px);
+    }
+    100% {
+        transform: translate(0, 0px);
     }
 }
 .background-terang {
@@ -129,6 +146,9 @@ body {
     display: none;
 }
 @media (max-width: 575.98px) {
+    .card-seragam {
+        width: 100% !important;
+    }
     /* Card Barang */
     .card-barang {
         width: 100% !important;

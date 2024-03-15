@@ -124,6 +124,17 @@ button:hover {
     border-radius: 5px;
     cursor: pointer;
 }
+/* CARD */
+.button-card-blue {
+    background-image: url("/assets/card-bg.png");
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px;
+}
+.button-card-white {
+    background-image: url("/assets/card-bg-white.png");
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px;
+}
 
 /* RESPONSIVE */
 @media (max-width: 575.98px) {

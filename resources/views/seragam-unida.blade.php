@@ -27,10 +27,56 @@
             <h3 class="tulisan-gelap fw-bolder">Untuk Mahasiswi : </h3>
             <div class="row d-flex justify-content-around">
                 {{-- Card Seragam --}}
-                <div class="card card-seragam background-gelap mb-3 col-2 mx-1 my-2 px-0">
-                    <img src="assets/seragam-mahasiswi/seragam-olahraga.jpg" class="card-img-top">
-                    <div class="ukm-title d-flex my-1 align-items-center justify-content-center">
+                <div class="card card-seragam border-0 rounded bg-transparent mb-3 col-3 mx-1 my-2 px-0">
+                    <img src="assets/seragam-mahasiswi/SERAGAM-OLAHRAGA-UNIDA.png" class="card-img-top">
+                    <div
+                        class="ukm-title rounded-bottom background-gelap d-flex py-1 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-1">Seragam Olahraga</h5>
+                    </div>
+                </div>
+                {{-- End --}}
+                {{-- Card Seragam --}}
+                <div class="card card-seragam border-0 rounded bg-transparent mb-3 col-3 mx-1 my-2 px-0">
+                    <img src="assets/seragam-mahasiswi/ALMAMATER-UNIDA.png" class="card-img-top">
+                    <div
+                        class="ukm-title rounded-bottom background-gelap d-flex py-1 align-items-center justify-content-center">
+                        <h5 class="card-title tulisan-terang mx-1">ALMAMATER UNIDA</h5>
+                    </div>
+                </div>
+                {{-- End --}}
+                {{-- Card Seragam --}}
+                <div class="card card-seragam border-0 rounded bg-transparent mb-3 col-3 mx-1 my-2 px-0">
+                    <img src="assets/seragam-mahasiswi/FORMAL-DRESS-OUTFIT.png" class="card-img-top">
+                    <div
+                        class="ukm-title rounded-bottom background-gelap d-flex py-1 align-items-center justify-content-center">
+                        <h5 class="card-title tulisan-terang mx-1">FORMAL DRESS OUTFIT</h5>
+                    </div>
+                </div>
+                {{-- End --}}
+                {{-- Card Seragam --}}
+                <div class="card card-seragam border-0 rounded bg-transparent mb-3 col-3 mx-1 my-2 px-0">
+                    <img src="assets/seragam-mahasiswi/PRAYER-OUTFIT.png" class="card-img-top">
+                    <div
+                        class="ukm-title rounded-bottom background-gelap d-flex py-1 align-items-center justify-content-center">
+                        <h5 class="card-title tulisan-terang mx-1">PRAYER OUTFIT</h5>
+                    </div>
+                </div>
+                {{-- End --}}
+                {{-- Card Seragam --}}
+                <div class="card card-seragam border-0 rounded bg-transparent mb-3 col-3 mx-1 my-2 px-0">
+                    <img src="assets/seragam-mahasiswi/SERAGAM-CREAM-UNIDA.png" class="card-img-top">
+                    <div
+                        class="ukm-title rounded-bottom background-gelap d-flex py-1 align-items-center justify-content-center">
+                        <h5 class="card-title tulisan-terang mx-1">SERAGAM CREAM UNIDA</h5>
+                    </div>
+                </div>
+                {{-- End --}}
+                {{-- Card Seragam --}}
+                <div class="card card-seragam border-0 rounded bg-transparent mb-3 col-3 mx-1 my-2 px-0">
+                    <img src="assets/seragam-mahasiswi/SERAGAM-TOSCA-UNIDA.png" class="card-img-top">
+                    <div
+                        class="ukm-title rounded-bottom background-gelap d-flex py-1 align-items-center justify-content-center">
+                        <h5 class="card-title tulisan-terang mx-1">SERAGAM TOSCA UNIDA</h5>
                     </div>
                 </div>
                 {{-- End --}}

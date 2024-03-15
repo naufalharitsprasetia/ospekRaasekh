@@ -96,7 +96,7 @@
     <!-- About End -->
 
     <!-- FIlosopi Start -->
-    <div class="about-container text-center bg-corak" id="about" style="padding-top: 6rem; ">
+    <div class="about-container text-center bg-corak" id="filosofi" style="padding-top: 6rem; ">
         <div class="about-content">
             <h2 class="fw-bold" style="font-size: 3.7rem;font-family: estetik; color: var(--primary)" data-aos="zoom-in"
                 data-aos-duration="1000">
@@ -154,8 +154,8 @@
         </div>
     </div>
     <!-- Filosopi End -->
-    {{-- NAMA FILOSOFI S --}}
-    <div class="about-container text-center bg-corak" id="about" style="padding-top: 2rem; ">
+    {{-- FILOSOFI Kata Rasekh --}}
+    <div class="about-container text-center bg-corak" id="kata-rasekh" style="padding-top: 2rem; ">
         <div class="about-content">
             <h2 class="fw-bold" style="font-size: 3.7rem;font-family: estetik; color: var(--primary)">
                 Filosofi Kata<br> <span style="color:#ae7b41">RAASEKH</span>
@@ -188,7 +188,57 @@
             </p>
         </div>
     </div>
-    {{-- NAMA FILOSOFI  --}}
+    {{-- End FILOSOFI kata  --}}
+    {{-- Barang --}}
+    <div class="about-container d-flex flex-col text-start bg-corak px-5 mx-5 pb-5 align-items-center" id="barang"
+        style="padding-top: 2rem; ">
+        <div class="about-content">
+            <h2 class="px-5 me-5 fw-bold" style="font-size: 3.7rem;font-family: estetik; color: var(--primary)">
+                Apa Saja Yang <br> <span style="color:#ae7b41">Perlu Disiapkan ? 🤔🤔</span>
+            </h2>
+            <p class="px-5 me-5 responsive-p">Berikut disamping adalah barang-barang yang perlu disiapkan, mulai dari
+                barang-barang, atribut, daftar-ulang, dan persyaratan-persyaratan lainnya.
+            </p>
+        </div>
+        <div class="about-desc card-grid d-flex gap-2" style="text-align: justify">
+            <div class="card-left d-flex flex-column gap-2 floating-reverse">
+                <a href="#" class="w-100">
+                    <button class="button-card-blue w-100 p-5 text-center rounded-5" style=" border:none">
+                        <div class="bg-white rounded-circle items-center justify-content-center d-flex p-3 mb-2"><img
+                                src="/assets/twibbon.png" alt=""></div>
+                        <p style="font-family: estetik; color:white;font-size:1.8rem">Twibbon</p>
+                    </button>
+                </a>
+                <a href="#" class="w-100">
+                    <button class="button-card-white w-100 p-5 text-center rounded-5" style=" border:none">
+                        <div class="background-gelap rounded-circle items-center justify-content-center d-flex p-3 mb-2">
+                            <img src="/assets/atribut.png" alt="">
+                        </div>
+                        <p class="tulisan-gelap" style="font-family: estetik;font-size:1.8rem">Atribut</p>
+                    </button>
+                </a>
+            </div>
+            <div class="card-right d-flex flex-column gap-2 floating">
+                <a href="#" class="w-100">
+                    <button class="button-card-white w-100 p-5 text-center rounded-5" style=" border:none">
+                        <div class="background-gelap rounded-circle items-center justify-content-center d-flex p-3 mb-2">
+                            <img src="/assets/atribut.png" alt="">
+                        </div>
+                        <p class="tulisan-gelap" style="font-family: estetik;font-size:1.8rem">Atribut</p>
+                    </button>
+                </a>
+                <a href="#" class="w-100">
+                    <button class="button-card-blue w-100 p-5 text-center rounded-5" style=" border:none">
+                        <div class="bg-white rounded-circle items-center justify-content-center d-flex p-3 mb-2">
+                            <img src="/assets/twibbon.png" alt="">
+                        </div>
+                        <p style="font-family: estetik; color:white;font-size:1.8rem">Twibbon</p>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    {{-- End FILOSOFI kata  --}}
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

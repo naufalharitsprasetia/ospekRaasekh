@@ -2,7 +2,7 @@
 
 @section('css')
     <!-- Kontak Kami CSS -->
-    <link rel="stylesheet" href="css/kontak-kami.css" />
+    {{-- <link rel="stylesheet" href="css/kontak-kami.css" /> --}}
 @endsection
 
 @section('content')
@@ -96,7 +96,7 @@
             </div>
         </div>
         <hr>
-        <div class="container mx-2 my-2 ">
+        <div class="container-fluid mx-2 my-2 ">
 
             {{-- OLAH FIKIR --}}
             <h2 class="text-center tulisan-gelap fw-bolder">Divisi</h2>
