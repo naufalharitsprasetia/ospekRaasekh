@@ -146,6 +146,23 @@ body {
     display: none;
 }
 @media (max-width: 575.98px) {
+    .profil .profil-content {
+        margin: 0 !important;
+        padding-bottom: 2rem;
+    }
+    .carousel-item img {
+        width: 300px !important;
+    }
+    #carouselExampleSlidesOnly,
+    #carouselExampleSlidesOnly2 {
+        margin: 0 !important;
+        /* margin-left: 0 !important;
+        margin-right: 0 !important; */
+    }
+    .profil-content .galeri-profil-unida {
+        flex-direction: column;
+        margin-left: 0 !important;
+    }
     .card-seragam {
         width: 100% !important;
     }
@@ -185,7 +202,7 @@ body {
     }
     .nav-hamburger {
         position: absolute;
-        top: 12%;
+        top: 9vh;
         right: -100%;
         background-color: #ffe6a7f1;
         width: 43vw;

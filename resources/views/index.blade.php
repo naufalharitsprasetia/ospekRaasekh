@@ -13,8 +13,8 @@
             <a href="/jurusan">Jurusan</a>
             {{-- <a href="/development">Development</a> --}}
             <a href="/pembayaran-du">Pembayaran Daftar Ulang</a>
-            <a href="/timeline">Timeline</a>
-            <a href="/lainnya">Lainnya</a>
+            <a href="/timeline">Jadwal Kegiatan</a>
+            <a href="/lainnya">Daftar Halaman</a>
         </div>
     </div>
     <div class="hero" id="home">
@@ -47,7 +47,7 @@
     {{-- NAVBAR START --}}
     <nav class="navbar justify-content-center py-0 position-sticky">
         <!-- Menu on Web Display -->
-        <div class="nav-menu d-flex pt-2">
+        <div class="nav-menu d-flex pt-2 " style="overflow: auto;">
             <ul class="d-flex justify-content-center align-items-center">
                 <li><a href="/jurusan" id="active">Jurusan</a></li>
                 <li><a href="/timeline" id="active">Timeline</a></li>
@@ -190,27 +190,33 @@
     </div>
     {{-- End FILOSOFI kata  --}}
     {{-- Barang --}}
-    <div class="about-container d-flex flex-col text-start bg-corak px-5 mx-5 pb-5 align-items-center" id="barang"
-        style="padding-top: 2rem; ">
+    <div class="about-container barang-container d-flex flex-col text-start bg-corak px-5 pb-5 align-items-center"
+        id="barang" style="padding-top: 2rem; ">
         <div class="about-content">
-            <h2 class="px-5 me-5 fw-bold" style="font-size: 3.7rem;font-family: estetik; color: var(--primary)">
-                Apa Saja Yang <br> <span style="color:#ae7b41">Perlu Disiapkan ? 🤔🤔</span>
+            <h2 class="px-5 me-5 fw-bold barang-h2" style="font-size: 3.7rem;font-family: estetik; color: var(--primary)">
+                Hal Lainnya <br> <span style="color:#ae7b41">Yang Perlu Diketahui</span>
             </h2>
-            <p class="px-5 me-5 responsive-p">Berikut disamping adalah barang-barang yang perlu disiapkan, mulai dari
-                barang-barang, atribut, daftar-ulang, dan persyaratan-persyaratan lainnya.
+            <p class="px-5 me-5 responsive-p barang-p">Berikut disamping adalah Hal-Hal yang perlu diketahui dan disiapkan.
+                mulai
+                dari barang-barang yang harus dibawa, atribut yang kenakan, informasi terkait daftar ulang, dan
+                informasi-informasi lainnya.
             </p>
         </div>
         <div class="about-desc card-grid d-flex gap-2" style="text-align: justify">
             <div class="card-left d-flex flex-column gap-2 floating-reverse">
-                <a href="#" class="w-100">
-                    <button class="button-card-blue w-100 p-5 text-center rounded-5" style=" border:none">
-                        <div class="bg-white rounded-circle items-center justify-content-center d-flex p-3 mb-2"><img
-                                src="/assets/twibbon.png" alt=""></div>
-                        <p style="font-family: estetik; color:white;font-size:1.8rem">Twibbon</p>
+                <a href="/persiapan-barang" class="w-100">
+                    <button class="button-card-barang button-card-blue w-100 p-5 text-center rounded-5"
+                        style=" border:none">
+                        <div class="background-terang rounded-circle items-center justify-content-center d-flex p-3 mb-2">
+                            <img src="/assets/barang-bawaan.png" alt="">
+                        </div>
+                        <p class="tulisan-terang" style="font-family: estetik;font-size:1.8rem">Barang
+                        </p>
                     </button>
                 </a>
-                <a href="#" class="w-100">
-                    <button class="button-card-white w-100 p-5 text-center rounded-5" style=" border:none">
+                <a href="/seragam-unida" class="w-100">
+                    <button class="button-card-barang button-card-white w-100 p-5 text-center rounded-5"
+                        style=" border:none">
                         <div class="background-gelap rounded-circle items-center justify-content-center d-flex p-3 mb-2">
                             <img src="/assets/atribut.png" alt="">
                         </div>
@@ -219,20 +225,22 @@
                 </a>
             </div>
             <div class="card-right d-flex flex-column gap-2 floating">
-                <a href="#" class="w-100">
-                    <button class="button-card-white w-100 p-5 text-center rounded-5" style=" border:none">
+                <a href="/timeline" class="w-100">
+                    <button class="button-card-barang button-card-white w-100 p-5 text-center rounded-5"
+                        style=" border:none">
                         <div class="background-gelap rounded-circle items-center justify-content-center d-flex p-3 mb-2">
-                            <img src="/assets/atribut.png" alt="">
+                            <img src="/assets/timeline.png" alt="">
                         </div>
-                        <p class="tulisan-gelap" style="font-family: estetik;font-size:1.8rem">Atribut</p>
+                        <p class="tulisan-gelap" style="font-family: estetik;font-size:1.8rem">Timeline</p>
                     </button>
                 </a>
-                <a href="#" class="w-100">
-                    <button class="button-card-blue w-100 p-5 text-center rounded-5" style=" border:none">
-                        <div class="bg-white rounded-circle items-center justify-content-center d-flex p-3 mb-2">
-                            <img src="/assets/twibbon.png" alt="">
+                <a href="/lainnya" class="w-100">
+                    <button class="button-card-barang button-card-blue w-100 p-5 text-center rounded-5"
+                        style=" border:none">
+                        <div class="background-terang rounded-circle items-center justify-content-center d-flex p-3 mb-2">
+                            <img src="/assets/lainnya.png" alt="">
                         </div>
-                        <p style="font-family: estetik; color:white;font-size:1.8rem">Twibbon</p>
+                        <p class="tulisan-terang" style="font-family: estetik;font-size:1.8rem">Lainnya</p>
                     </button>
                 </a>
             </div>

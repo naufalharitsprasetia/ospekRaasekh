@@ -1,7 +1,7 @@
 {{-- Responsive Sidebar --}}
 <div class="nav-hamburger">
     <div class="nav-hamburger-menu">
-        <a href="#">Home</a>
+        <a href="/">Home</a>
         <a href="/kontak-kami">Kontak Kami</a>
         <a href="/jurusan">Jurusan</a>
         {{-- <a href="/development">Development</a> --}}

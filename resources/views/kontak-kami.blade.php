@@ -7,7 +7,7 @@
 
 @section('content')
     <!-- Contact Us Start -->
-    <div class="contactUs mt-0">
+    <div class="contactUs mt-0 font-poppins">
         <div class="title-contact">
             <h1 class="tulisan-gelap text-center fw-bolder">Kontak Kami</h1>
         </div>

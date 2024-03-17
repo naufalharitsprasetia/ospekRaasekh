@@ -2,12 +2,12 @@
 
 @section('css')
     <!-- Kontak Kami CSS -->
-    <link rel="stylesheet" href="css/kontak-kami.css" />
+    {{-- <link rel="stylesheet" href="css/kontak-kami.css" /> --}}
 @endsection
 
 @section('content')
-    <!-- Contact Us Start -->
-    <div class="ukm background-terang px-4 py-3">
+    <!-- Profil Unida Start -->
+    <div class="profil background-terang px-4 py-3">
         <div class="breadcrumb"><a href="/lainnya"
                 class="text-decoration-none hover-breadcrumb tulisan-gelap fw-bold pe-2">Others </a> / Profil Unida
         </div>
@@ -15,9 +15,9 @@
             <h1 class="tulisan-gelap text-center fw-bolder">Profil Unida</h1>
         </div>
         <hr>
-        <div class="container-fluid mx-2 my-2 ">
+        <div class="container-fluid profil-content mx-2 my-2 ">
             {{-- Foto --}}
-            <div class="ms-4 foto d-flex justify-content-center">
+            <div class="ms-4 foto galeri-profil-unida d-flex justify-content-center">
                 <div id="carouselExampleSlidesOnly" class="carousel slide mx-2" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -92,17 +92,8 @@
                 dosen. Kajian-kajian tersebut, ditambah dengan kegiatan-kegiatan akademik dan penunjang akademik lainnya,
                 berjalan dengan dinamis dan efektif karena seluruh mahasiswa dan sebagian besar dosen tinggal di sebuah
                 kampus yang terpadu.
-                <br><br>
-                Semua upaya pengembangan itu secara internal dievaluasi terus-menerus oleh Lembaga Penjamin Mutu dan
-                evaluasi eksternal secara berkala oleh Badan Akreditasi Nasional (BAN-PT). Hasilnya, seluruh Program Studi,
-                baik S1 maupun S2 telah terakreditasi. Begitu juga secara institusi, telah mendapatkan akreditasi dari
-                BAN-PT. Seiring dengan hal itu, seluruh biro dan lembaga di UNIDA Gontor terus meningkatkan peran dan
-                fungsinya melalui program-program yang telah disusun.
-                <br><br>
-                Jadi, UNIDA Gontor bukan hanya kampus perguruan tinggi biasa. Ia lebih merupakan milieu pendidikan dan
-                masyarakat ilmiah. Sudah tentu, profil sederhana ini belum cukup menggambarkan keadaan yang sesungguhnya.
-                Oleh sebab itu, datang dan melihat langsung kehidupan kampus UNIDA Gontor akan lebih baik dari sekedar
-                membaca profil. Selamat membaca dan selamat datang di kampus UNIDA Gontor, the Fountain of Wisdom.
+                <br>
+                <a href="https://unida.gontor.ac.id/id/tentang-kami/">Read More ....</a>
             </blockquote>
             <br>
             <div class="accordion" id="accordionExample">

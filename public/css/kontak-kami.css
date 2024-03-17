@@ -182,3 +182,21 @@ nav ul li #active {
     width: 100%;
     height: 300px;
 }
+@media (max-width: 575.98px) {
+    .box {
+        display: block !important;
+    }
+    .contact {
+        margin-bottom: 32px;
+        padding: 24px;
+    }
+    .formBox .row50 {
+        display: block;
+    }
+    .inputBox {
+        width: 100%;
+    }
+    .contactUs {
+        padding: 28px 24px;
+    }
+}
