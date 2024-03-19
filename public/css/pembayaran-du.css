@@ -23,7 +23,8 @@ a {
 
 /* Card Start */
 .card-pembayaran-du {
-    display: flex;
+    /* display: flex; */
+    margin: 3rem;
     color: black;
     justify-content: center;
 }
@@ -51,7 +52,10 @@ a {
     padding: 10px 20px;
     text-align: justify;
 }
-
+.list-ketentuan ul li {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
 .btn-pembayaran button {
     width: 230px;
     height: 42px;
@@ -95,7 +99,7 @@ a {
 /* Card DU */
 .card-du {
     background-color: #f9f9f9;
-    width: 290px;
+    /* width: 290px; */
     /* height: 420px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -110,7 +114,7 @@ a {
 
 .card-info {
     background-color: #f9f9f9;
-    width: 270px;
+    /* width: 270px; */
     /* height: 250px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -153,7 +157,7 @@ a {
 .card-narahubung-wa {
     background-color: #f9f9f9;
     color: #090909;
-    width: 300px;
+    /* width: 300px; */
     /* height: 120px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;

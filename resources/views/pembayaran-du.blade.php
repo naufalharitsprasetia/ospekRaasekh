@@ -26,24 +26,70 @@
                     <p>Biaya Daftar Ulang</p>
                 </div>
                 <div class="harga-pendaftaran">
-                    <h3>Rp 8.375.000</h3>
+                    <h3>*Sesuaikan Dengan Prodi Yang ingin kalian ambil</h3>
                 </div>
-                <div class="list-ketentuan">
-                    <ul>
-                        <li class="font-poppins">
-                            Khusus calon mahasiswa/i <span>Jalur Khusus</span> (Alumni
-                            Gontor 2024)
+                <div class="list-ketentuan font-poppins">
+                    <ul style="list-style: bullet">
+                        <li>
+                            Biaya daftar ulang diperuntukkan kepada seluruh calon mahasiswa/i baru sesuai dengan program
+                            studi dan kampus perkuliahan masing-masing.
                         </li>
                         <li>
-                            Biaya Daftar Ulang akan dikembalikan sesuai dengan Prodi
-                            (setelah mendapatkan prodi)
+                            Calon mahasiswa/i baru yang telah menyelesaikan program matrikulasi bahasa tidak dikenakan biaya
+                            pendaftaran dan langsung melengkapi biaya daftar ulang sesuai dengan program studinya.
                         </li>
                         <li>
-                            ... <a href="#popup-details" id="lainnya">lihat lainnya</a>
+                            Adapun ketentuan daftar ulang mahasiswa/i baru adalah sebagaimana berikut :
+                            <ol type="a">
+                                <li> Calon mahasiswa/i baru Jalur Reguler (Non Alumni KMI Gontor) yang
+                                    telah
+                                    dinyatakan
+                                    lolos seleksi agar melunasi daftar ulang dengan memperhatikan maklumat yang terlampir
+                                    sesuai dengan hasil yudisium kelulusan.</li>
+                                <li>Calon mahasiswa/i baru Jalur Khusus (Alumni KMI Gontor 2023)* <br><br>Putra : Melunasi
+                                    biaya
+                                    daftar ulang dengan nominal Rp. 8.375.000,- (Pendaftaran program studi tertinggi) ke
+                                    rekening yang telah ditentukan (lihat poin B.4) serta menyimpan bukti pembayarannya.
+                                    Setelah mendapat program studi, masing-masing mahasiswa dapat mengambil sisa pembayaran
+                                    sesuai dengan biaya pendaftaran program studinya. <br><br>Putri : Melunasi biaya daftar
+                                    ulang dengan nominal minimal Rp. 5.000.000,- ke rekening yang telah ditentukan (lihat
+                                    poin B.4) serta menyimpan bukti pembayarannya. Setelah mendapat program studi,
+                                    masing-masing mahasiswi dapat melengkapi sisa pembayaran sesuai dengan biaya pendaftaran
+                                    program studinya.</li>
+                                <li>Calon mahasiswa/i baru Jalur Non Reguler (Alumni KMI Gontor Non 2023)* melunasi
+                                    daftar ulang sesuai dengan pilihan prodi pertama.</li>
+                            </ol>
+                            <br>
+                            NB :
+                            <br>
+                            *Untuk kampus reguler (Siman dan Mantingan)
+                            <br>
+                            **Adapun kampus yang lain menyesuaikan maklumat dari Bagian Administrasi.
+                        </li>
+                        <li>
+                            Seluruh pembayaran dilakukan dengan metode transfer sesuai dengan ketentuan-ketentuan berikut
+                            ini :
+                            <ol type="a">
+                                <li>Kampus Siman dan Robithoh : <br>Pembayaran dapat diakses melalui akun admisi
+                                    masing-masing pada menu “Payment” lalu klik “Billing Info”</li>
+                                <li>Kampus Mantingan : <br>
+                                    Biaya daftar ulang dikirim melalui
+                                    <br>
+                                    Bank Muammalat
+                                    <br>
+                                    No Rek 7430008666
+                                    <br>
+                                    Atas Nama Universitas Darussalam Gontor
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            <a href="https://pmb.unida.gontor.ac.id/informasi-biaya-dan-daftar-ulang/" id="lainnya">baca
+                                selengkapnya...</a>
                         </li>
                     </ul>
                 </div>
-                <div class="btn-pembayaran">
+                {{-- <div class="btn-pembayaran">
                     <a href="#popup-pembayaran-putra">
                         <button>Pembayaran Putra</button>
                     </a>
@@ -52,7 +98,7 @@
                     <a href="#popup-pembayaran-putri">
                         <button>Pembayaran Putri</button>
                     </a>
-                </div>
+                </div> --}}
             </div>
 
             <div class="card-info border-coklat-muda">
@@ -71,6 +117,12 @@
                         <button>Download Daftar Ulang</button>
                     </a>
                 </div>
+                <div class="btn-pembayaran mt-2">
+                    {{--  --}}
+                    <a href="https://pmb.unida.gontor.ac.id/informasi-biaya-dan-daftar-ulang/" target="_blank">
+                        <button>Klik Untuk Detail Lebih Lanjut</button>
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -80,10 +132,10 @@
                 <h3 class="text-decoration-underline mb-5">Narahubung</h3>
             </div>
             <div class="card-narahubung">
-                <a href="https://wa.me/6282115823355" target="_blank" class="text-decoration-none">
+                <a href="https://wa.me/6281350743261" target="_blank" class="text-decoration-none">
                     <div class="card-narahubung-wa border-coklat-muda ">
                         <h3>Kampus Putra</h3>
-                        <p>Al - Ustadz Nazha Muhammad Jundi</p>
+                        <p>Al Ust Hilal Al-Akbar Nuraindra</p>
                         <div class="hubungi-saya">
                             <img src="assets/wa.png" />
                             <p>Hubungi Saya</p>
@@ -146,7 +198,7 @@
         </div>
     </div>
 
-    <div class="popup-details" id="popup-details">
+    {{-- <div class="popup-details" id="popup-details">
         <div class="popup-container">
             <div class="popup-close">
                 <a href="#">&times;</a>
@@ -192,6 +244,6 @@
             </div>
         </div>
 
-    </div>
+    </div> --}}
     <!-- Pembayaran Popup End -->
 @endsection
