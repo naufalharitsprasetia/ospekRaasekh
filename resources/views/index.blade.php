@@ -11,25 +11,12 @@
             <a href="#">Home</a>
             <a href="/kontak-kami">Kontak Kami</a>
             <a href="/jurusan">Jurusan</a>
-            {{-- <a href="/development">Development</a> --}}
             <a href="/pembayaran-du">Pembayaran Daftar Ulang</a>
             <a href="/timeline">Jadwal Kegiatan</a>
             <a href="/lainnya">Daftar Halaman</a>
         </div>
     </div>
     <div class="hero" id="home">
-        {{-- <div class="position-absolute" style="width: 100%" id="marquez">
-        </div>
-        <script>
-            const hero = document.querySelector("#marquez");
-            const marq = `<marquee behavior="" direction="" 
-            style="color: #c6a477; -webkit-text-stroke:0.05rem white">SELAMAT DATANG DI OSPEK RAASEKH 2024</marquee>`;
-            document.addEventListener("DOMContentLoaded", function() {
-                setTimeout(function() {
-                    hero.innerHTML = marq;
-                }, 3000); // Menunggu 1 menit (1 menit = 60000 milidetik)
-            });
-        </script> --}}
         <div class="logo-ospek-2024">
             <img src="/assets/kain-kiri.png" class="position-absolute" alt=""
                 style="height: 91vh; top:0; left:0; width:100%" data-aos="fade-right" data-aos-duration="3000">
@@ -94,6 +81,59 @@
         </div>
     </div>
     <!-- About End -->
+
+    <!-- Unida Start -->
+    <div class="about-container text-center bg-corak" id="about" style="padding-top: 6rem; ">
+        <div class="about-content">
+            <h2 class="fw-bold" style="font-size: 3.7rem;font-family: estetik; color: #2f5a83" data-aos="zoom-in"
+                data-aos-duration="1000">
+                Universitas <br> <span style="color:#00acbd">Darussalam Gontor</span>
+            </h2>
+        </div>
+        <div class="about-desc px-5 mx-5 pt-4">
+            <img src="/assets/UNIDA.png" class="floating about-image" alt="" style="width: 30vw" data-aos="fade-up"
+                data-aos-duration="1000">
+            <p class="pt-4 fs-5 px-5 fw-normal responsive-p" style="margin: 0 6.5rem"><span class="fw-bolder"
+                    style="color: #2f5a83;">UNIDA GONTOR (Universitas Darussalam Gontor)
+                </span>adalah Orientasi mahasiswa baru dikenal
+                juga dengan istilah Orientasi Studi
+                dan pengenalan Kampus atau OSPEK. Kegiatan ini bertujuan untuk
+                mengenal dan memahami lingkungan kampus sebagai suatu lingkungan
+                akademis serta memahami mekanisme yang berlaku didalamnya.
+            </p>
+            <br>
+            <a href="https://unida.gontor.ac.id/" target="_blank" class="text-decoration-underline text-bold"
+                style="font-size: 1.2rem"><i class="bi bi-hand-index"></i> Kunjungi Website UNIDA GONTOR</a>
+        </div>
+    </div>
+    <!-- UNida End -->
+
+    <!-- PMB Start -->
+    <div class="about-container text-center bg-corak" id="about" style="padding-top: 6rem; ">
+        <div class="about-content">
+            <h2 class="fw-bold" style="font-size: 3.7rem;font-family: estetik; color: #2f5a83" data-aos="zoom-in"
+                data-aos-duration="1000">
+                PMB <br> <span style="color:#00acbd">(Penerimaan Mahasiswa Baru)</span>
+            </h2>
+        </div>
+        <div class="about-desc px-5 mx-5 pt-4">
+            <a href="https://pmb.unida.gontor.ac.id/" target="_blank"><img src="/assets/pmb-logo.png"
+                    class="rounded-3 floating about-image" alt="" style="width: 30vw" data-aos="fade-up"
+                    data-aos-duration="1000"></a>
+            <p class="pt-4 fs-5 px-5 fw-normal responsive-p" style="margin: 0 6.5rem"><span class="fw-bolder"
+                    style="color: #2f5a83;"> "PMB" adalah <i>singkatan</i> dari "Panitia
+                    Penerimaan Mahasiswa Baru".
+                </span>Mereka adalah tim di perguruan tinggi
+                yang menangani proses penerimaan siswa
+                baru. Mereka menilai aplikasi, mengatur ujian masuk (jika diperlukan), dan membuat keputusan tentang
+                penerimaan siswa baru. Selain itu, PMB juga bertanggung jawab atas pendataan mahasiswa baru yang diterima
+                untuk keperluan administratif dan akademis. </p>
+            <br>
+            <a href="https://pmb.unida.gontor.ac.id/" target="_blank" class="text-decoration-underline text-bold"
+                style="font-size: 1.2rem"><i class="bi bi-hand-index"></i> Kunjungi Website PMB</a>
+        </div>
+    </div>
+    <!-- End -->
 
     <!-- FIlosopi Start -->
     <div class="about-container text-center bg-corak" id="filosofi" style="padding-top: 6rem; ">

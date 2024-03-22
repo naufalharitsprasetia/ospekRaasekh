@@ -27,7 +27,7 @@
                             <img src="assets/profil-unida/profil2-min.jpg" class="d-block" width="500" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/profil-unida/profil3-min.jpg" class="d-block" width="500" alt="...">
+                            <img src="assets/profil-unida/profil3-min.JPG" class="d-block" width="500" alt="...">
                         </div>
                         <div class="carousel-item">
                             <img src="assets/profil-unida/profil4-min.jpg" class="d-block" width="500" alt="...">

@@ -15,34 +15,34 @@
             <!-- Form -->
             <div class="contact form">
                 <p>Kirim Pesan</p>
-                <form>
+                <form onsubmit="generateWhatsAppLink(event)">
                     <div class="formBox">
                         <div class="row50">
                             <div class="inputBox">
                                 <span>Nama Depan</span>
-                                <input type="text" placeholder="" />
+                                <input type="text" placeholder="" id="namaDepan" />
                             </div>
                             <div class="inputBox">
                                 <span>Nama Belakang</span>
-                                <input type="text" placeholder="" />
+                                <input type="text" placeholder="" id="namaBelakang" />
                             </div>
                         </div>
 
                         <div class="row50">
                             <div class="inputBox">
                                 <span>Email</span>
-                                <input type="text" placeholder="" />
+                                <input type="text" placeholder="" id="emailInput" />
                             </div>
                             <div class="inputBox">
                                 <span>Nomer Handphone</span>
-                                <input type="text" placeholder="" />
+                                <input type="text" placeholder="" id="nomorHpInput" />
                             </div>
                         </div>
 
                         <div class="row100">
                             <div class="inputBox">
                                 <span>Pesan</span>
-                                <textarea placeholder="Tulis pesan anda disini..."></textarea>
+                                <textarea placeholder="Tulis pesan anda disini..." id="pesanInput"></textarea>
                             </div>
                         </div>
 
@@ -86,4 +86,22 @@
             </div>
         </div>
     </div>
+    <script>
+        // WHATSAPP
+        function generateWhatsAppLink(event) {
+            event.preventDefault();
+            const namaDepan = document.getElementById("namaDepan").value;
+            const namaBelakang = document.getElementById("namaBelakang").value;
+            const nama = namaDepan + " " + namaBelakang;
+            const nomorHp = document.getElementById("nomorHpInput").value;
+            const email = document.getElementById("emailInput").value;
+            const pesan = document.getElementById("pesanInput").value;
+            const whatsappMessage =
+                `Halo nama saya "${nama}" | Nomor hp: "${nomorHp}" | Email: "${email}" | Pesan: "${pesan}"`;
+            const whatsappLink = `https://api.whatsapp.com/send?phone=6281220594202&text=${encodeURIComponent(
+             whatsappMessage
+              )}`;
+            window.open(whatsappLink, "_blank");
+        }
+    </script>
 @endsection

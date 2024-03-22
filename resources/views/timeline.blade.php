@@ -13,7 +13,9 @@
             <h1 class="tulisan-terang text-center fw-bolder">Jadwal Kegiatan</h1>
             <h1 class="tulisan-terang text-center fw-bolder">OSPEK 2024</h1>
             <p class="tulisan-terang text-center">
-                Yuk pantau terus jadwal kegiatan OSPEK, jangan sampai kelewat ya...
+                Yuk pantau terus jadwal kegiatan OSPEK, jangan sampai kelewat ya... | <a
+                    href="https://pmb.unida.gontor.ac.id/jadwal-pendaftaran-dan-seleksi/" target="_blank">Timeline Versi
+                    PMB</a>
             </p>
         </div>
 
@@ -21,9 +23,9 @@
 
             <div class="timeline-content yudisium-kelas-6" data-aos="fade-up">
                 <div class="tag">
-                    {{-- <span class="tag-selesai">SELESAI</span> --}}
+                    <span class="tag-selesai">SELESAI</span>
                     <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <span class="tag-soon">AKAN DATANG</span>
+                    {{-- <span class="tag-soon">AKAN DATANG</span> --}}
                 </div>
 
                 <div class="date" style="text-align: end;">
@@ -36,8 +38,8 @@
             <div class="timeline-content test" data-aos="fade-up">
                 <div class="tag">
                     {{-- <span class="tag-selesai">SELESAI</span> --}}
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
-                    <span class="tag-soon">AKAN DATANG</span>
+                    <span class="tag-progress">SEDANG BERLANGSUNG</span>
+                    {{-- <span class="tag-soon">AKAN DATANG</span> --}}
                 </div>
 
                 <div class="date">
@@ -58,7 +60,7 @@
             <div class="timeline-content awal-kedatangan" data-aos="fade-up">
                 <div class="tag">
                     {{-- <span class="tag-selesai">SELESAI</span> --}}
-                    <!-- <span class="tag-progress">SEDANG BERLANGSUNG</span> -->
+                    {{-- <span class="tag-progress">SEDANG BERLANGSUNG</span> --}}
                     <span class="tag-soon">AKAN DATANG</span>
                 </div>
 

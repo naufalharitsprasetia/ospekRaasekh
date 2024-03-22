@@ -27,6 +27,11 @@
                               <i class="bi bi-envelope-fill"></i>
                               <p>pmb@unida.gontor.ac.id</p>
                           </div>
+                          <div class="content-contact-website mt-2">
+                              <i class="bi bi-browser-chrome"></i>
+                              <a href="https://pmb.unida.gontor.ac.id/" target="_blank" class="text-white ms-2">
+                                  https://pmb.unida.gontor.ac.id/</a>
+                          </div>
                       </div>
                   </div>
               </div>

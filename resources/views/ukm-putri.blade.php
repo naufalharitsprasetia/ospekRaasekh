@@ -19,7 +19,7 @@
             <div class="row d-flex justify-content-around">
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-TATA-RIAS.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-TATA-RIAS.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM TATA RIAS</h5>
                     </div>
@@ -30,7 +30,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-BADMINTON.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-BADMINTON.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM BADMINTON</h5>
                     </div>
@@ -41,7 +41,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-DESIGN-GRAFIS.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-DESIGN-GRAFIS.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM DESIGN GRAFIS</h5>
                     </div>
@@ -52,7 +52,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-KHOT.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-KHOT.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM KHOT</h5>
                     </div>
@@ -64,7 +64,7 @@
 
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-AEROBIC.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-AEROBIC.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM AEROBIC</h5>
                     </div>
@@ -75,7 +75,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-HASTA-KARYA.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-HASTA-KARYA.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM HASTA KARYA</h5>
                     </div>
@@ -86,7 +86,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-BASKET.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-BASKET.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM BASKET</h5>
                     </div>
@@ -97,7 +97,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-FOTOGRAFI.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-FOTOGRAFI.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM FOTOGRAFI</h5>
                     </div>
@@ -120,7 +120,7 @@
 
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-MC.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-MC.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM MC</h5>
                     </div>
@@ -131,7 +131,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-MEMANAH.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-MEMANAH.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM MEMANAH</h5>
                     </div>
@@ -142,7 +142,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-VOLI.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-VOLI.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM VOLI</h5>
                     </div>
@@ -153,7 +153,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-TATA-BOGA.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-TATA-BOGA.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM TATA BOGA</h5>
                     </div>
@@ -164,7 +164,7 @@
                 {{-- End --}}
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-TATA-BUSANA.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-TATA-BUSANA.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM TATA BUSANA</h5>
                     </div>
@@ -176,7 +176,7 @@
 
                 {{-- Card UKM --}}
                 <div class="card card-ukm background-gelap mb-3 col-3 mx-1 my-2 pb-3 px-0">
-                    <img src="assets/ukm-putri/UKM-DEBAT.jpg" class="card-img-top">
+                    <img src="assets/ukm-putri/UKM-DEBAT.JPG" class="card-img-top">
                     <div class="ukm-title d-flex my-3 align-items-center justify-content-center">
                         <h5 class="card-title tulisan-terang mx-4">UKM DEBAT</h5>
                     </div>
