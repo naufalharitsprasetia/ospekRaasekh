@@ -193,6 +193,31 @@
                 </div>
 
                 <div class="row-1">
+                    <div class="card-1">
+                        <div class="nama-fakultas">
+                            <img src="assets/graduation.png" alt="fem" />
+                            <p>Fakultas Kedokteran</p>
+                        </div>
+                        <div class="line">
+                            <span></span>
+                        </div>
+                        <div class="prodi atas">
+                            <a href="https://fk.unida.gontor.ac.id/" target="_blank">
+                                <img src="assets/fem.png" alt="" />
+                                <p>Kedokteran Program Sarjana</p>
+                            </a>
+                        </div>
+                        <div class="prodi">
+                            <a href="https://fk.unida.gontor.ac.id/" target="_blank">
+                                <div class="img-prodi">
+                                    <img src="assets/fem.png" alt="" />
+                                </div>
+                                <div class="nama-prodi">
+                                    <p>Profesi Dokter</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                     <div class="card-2 tengah">
                         <div class="nama-fakultas">
                             <img src="assets/graduation.png" alt="kesehatan" />

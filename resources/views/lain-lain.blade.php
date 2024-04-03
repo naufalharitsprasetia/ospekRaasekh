@@ -114,6 +114,16 @@
                     </a>
                 </div>
                 {{-- End --}}
+                {{-- Card 1 --}}
+                <div class="card card-others background-gelap mb-3 col-3 mx-2 my-2">
+                    <a href="/faq" class="tulisan-terang text-decoration-none">
+                        <div class="card-body">
+                            <h5 class="card-title tulisan-terang"><i class="fa-solid fa-circle-question fa-xl"
+                                    style="color: #fff6c3;"></i> FAQ</h5>
+                        </div>
+                    </a>
+                </div>
+                {{-- End --}}
             </div>
         </div>
     </div>

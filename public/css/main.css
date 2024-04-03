@@ -146,6 +146,9 @@ body {
     display: none;
 }
 @media (max-width: 575.98px) {
+    .search-faq {
+        width: 100% !important;
+    }
     .profil .profil-content {
         margin: 0 !important;
         padding-bottom: 2rem;

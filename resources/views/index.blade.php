@@ -13,6 +13,7 @@
             <a href="/jurusan">Jurusan</a>
             <a href="/pembayaran-du">Pembayaran Daftar Ulang</a>
             <a href="/timeline">Jadwal Kegiatan</a>
+            <a href="/faq">FAQ</a>
             <a href="/lainnya">Daftar Halaman</a>
         </div>
     </div>
@@ -42,7 +43,7 @@
                 <!-- Logo -->
                 <a href="#home" class="logo"><img src="assets/logo-tulisan-raasekh.png" alt="logoku" />
                 </a>
-                <li><a href="/profil-unida" id="active">Profil Unida</a></li>
+                <li><a href="/faq" id="active">FAQ</a></li>
                 <li><a href="/kontak-kami" id="active">Kontak Kami</a></li>
                 <li><a href="/lainnya" class="" id="active">Daftar Halaman</a></li>
             </ul>
@@ -95,11 +96,8 @@
                 data-aos-duration="1000">
             <p class="pt-4 fs-5 px-5 fw-normal responsive-p" style="margin: 0 6.5rem"><span class="fw-bolder"
                     style="color: #2f5a83;">UNIDA GONTOR (Universitas Darussalam Gontor)
-                </span>adalah Orientasi mahasiswa baru dikenal
-                juga dengan istilah Orientasi Studi
-                dan pengenalan Kampus atau OSPEK. Kegiatan ini bertujuan untuk
-                mengenal dan memahami lingkungan kampus sebagai suatu lingkungan
-                akademis serta memahami mekanisme yang berlaku didalamnya.
+                </span>merupakan perguruan tinggi waqaf yang berada di bawah naungan Pondok Modern Darussalam Gontor. oleh
+                sebab itu, dalam melaksanakan Tri Dharmanya, UNIDA Gontor mempertahankan visi, misi, dan jiwa pesantren.
             </p>
             <br>
             <a href="https://unida.gontor.ac.id/" target="_blank" class="text-decoration-underline text-bold"

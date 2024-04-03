@@ -63,15 +63,15 @@
 
   <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
   {{-- Own JS --}}
-
+  <script src="/js/script.js"></script>
   {{-- Bootstrap JS --}}
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
   </script>
 
   {{--  --}}
-  <script src="js/navbar.js"></script>
-  <script src="js/home.js"></script>
+  <script src="/js/navbar.js"></script>
+  <script src="/js/home.js"></script>
   <!-- Script Scroll Top Start -->
   <script>
       const scrollToTopButton = document.getElementById("scroll-top-button");

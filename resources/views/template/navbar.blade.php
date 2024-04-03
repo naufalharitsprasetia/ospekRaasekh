@@ -7,6 +7,7 @@
         {{-- <a href="/development">Development</a> --}}
         <a href="/pembayaran-du">Pembayaran Daftar Ulang</a>
         <a href="/timeline">Timeline</a>
+        <a href="/faq">FAQ</a>
         <a href="/lainnya">Daftar Halaman</a>
     </div>
 </div>
@@ -22,6 +23,7 @@
             <li><a href="/timeline" id="active" class="text-decoration-none">Timeline</a></li>
             <li><a href="/pembayaran-du" id="active" class="text-decoration-none">Pembayaran DU</a></li>
             <li><a href="/jurusan" id="active" class="text-decoration-none">Jurusan</a></li>
+            <li><a href="/faq" id="active" class="text-decoration-none">FAQ</a></li>
             <li><a href="/kontak-kami" id="active" class="text-decoration-none">Kontak Kami</a></li>
             <li><a href="/lainnya" id="active" class="text-decoration-none">Daftar Halaman</a></li>
             <!-- <li>

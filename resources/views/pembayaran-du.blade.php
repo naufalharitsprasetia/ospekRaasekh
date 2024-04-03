@@ -46,17 +46,17 @@
                                     dinyatakan
                                     lolos seleksi agar melunasi daftar ulang dengan memperhatikan maklumat yang terlampir
                                     sesuai dengan hasil yudisium kelulusan.</li>
-                                <li>Calon mahasiswa/i baru Jalur Khusus (Alumni KMI Gontor 2023)* <br><br>Putra : Melunasi
+                                <li>Calon mahasiswa/i baru Jalur Khusus (Alumni KMI Gontor 2024)* <br><br>Putra : Melunasi
                                     biaya
-                                    daftar ulang dengan nominal Rp. 8.375.000,- (Pendaftaran program studi tertinggi) ke
-                                    rekening yang telah ditentukan (lihat poin B.4) serta menyimpan bukti pembayarannya.
+                                    daftar ulang dengan nominal sekitar kisaran 7-9 Juta (Daftar Ulang Pokok) ke
+                                    rekening yang telah ditentukan (lihat poin 4) serta menyimpan bukti pembayarannya.
                                     Setelah mendapat program studi, masing-masing mahasiswa dapat mengambil sisa pembayaran
                                     sesuai dengan biaya pendaftaran program studinya. <br><br>Putri : Melunasi biaya daftar
                                     ulang dengan nominal minimal Rp. 5.000.000,- ke rekening yang telah ditentukan (lihat
-                                    poin B.4) serta menyimpan bukti pembayarannya. Setelah mendapat program studi,
+                                    poin 4) serta menyimpan bukti pembayarannya. Setelah mendapat program studi,
                                     masing-masing mahasiswi dapat melengkapi sisa pembayaran sesuai dengan biaya pendaftaran
                                     program studinya.</li>
-                                <li>Calon mahasiswa/i baru Jalur Non Reguler (Alumni KMI Gontor Non 2023)* melunasi
+                                <li>Calon mahasiswa/i baru Jalur Non Reguler (Alumni KMI Gontor Non 2024)* melunasi
                                     daftar ulang sesuai dengan pilihan prodi pertama.</li>
                             </ol>
                             <br>
@@ -84,7 +84,8 @@
                             </ol>
                         </li>
                         <li>
-                            <a href="https://pmb.unida.gontor.ac.id/informasi-biaya-dan-daftar-ulang/" id="lainnya">baca
+                            <a href="https://pmb.unida.gontor.ac.id/informasi-biaya-dan-daftar-ulang/" target="_blank"
+                                id="lainnya">baca
                                 selengkapnya...</a>
                         </li>
                     </ul>
