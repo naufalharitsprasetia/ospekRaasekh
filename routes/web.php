@@ -56,6 +56,9 @@ Route::get('/galeri', function () {
 Route::get('/struktur', function () {
     return view('struktur');
 });
+Route::get('/info-terbaru', function () {
+    return view('info-terbaru');
+});
 Route::get('/faq', function () {
     $faqs = Faq::all();
     return view('faq', [

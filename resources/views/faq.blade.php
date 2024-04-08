@@ -16,7 +16,7 @@
         </div>
         <hr>
         <div class="container-fluid text-center mx-2 my-2 ">
-            <h3 class="tulisan-gelap fw-bolder">FAQ</h3>
+            <h3 class="tulisan-gelap fw-bolder">Apa saja ya yang sering ditanyakan ... 🤔🤔</h3>
             {{-- Search --}}
             <div class="row justify-content-center">
                 <input
