@@ -47,7 +47,7 @@
                     <span class="date-h">13 Ramadhan - 28 Ramadhan 1445</span>
                 </div>
                 <p class="desc">
-                    Tes TOEFL & TOAFL, Minat Bakat dan Kepribadian (Online)
+                    Tes Minat Bakat dan Kepribadian (Online)
                 </p>
                 <a target="_blank"
                     href="https://docs.google.com/forms/d/e/1FAIpQLScyizeVY7hDVJc0AslzH3sk1i_P_XTlS7INXw1i9oaSrxW55A/viewform">-

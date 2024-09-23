@@ -14,7 +14,7 @@
             <a href="/pembayaran-du">Pembayaran Daftar Ulang</a>
             <a href="/timeline">Jadwal Kegiatan</a>
             <a href="/faq">FAQ</a>
-            <a href="/lainnya">Daftar Halaman</a>
+            <a href="/lainnya"><i class="fa-solid fa-circle-info fa-xl" style="color: #432818 ;"></i> Pusat Informasi</a>
         </div>
     </div>
     <div class="hero" id="home">
@@ -45,7 +45,8 @@
                 </a>
                 <li><a href="/faq" id="active">FAQ</a></li>
                 <li><a href="/kontak-kami" id="active">Kontak Kami</a></li>
-                <li><a href="/lainnya" class="" id="active">Daftar Halaman</a></li>
+                <li><a href="/lainnya" class="" id="active"><i class="fa-solid fa-circle-info fa-xl"
+                            style="color: #fff6c3;"></i> Pusat Informasi</a></li>
             </ul>
         </div>
         {{-- Menu On Mobile Display --}}
@@ -92,8 +93,8 @@
             </h2>
         </div>
         <div class="about-desc px-5 mx-5 pt-4">
-            <img src="/assets/UNIDA.png" class="floating about-image" alt="" style="width: 30vw" data-aos="fade-up"
-                data-aos-duration="1000">
+            <img src="/assets/UNIDA.png" class="floating about-image" alt="" style="width: 30vw"
+                data-aos="fade-up" data-aos-duration="1000">
             <p class="pt-4 fs-5 px-5 fw-normal responsive-p" style="margin: 0 6.5rem"><span class="fw-bolder"
                     style="color: #2f5a83;">UNIDA GONTOR (Universitas Darussalam Gontor)
                 </span>merupakan perguruan tinggi waqaf yang berada di bawah naungan Pondok Modern Darussalam Gontor. oleh

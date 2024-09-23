@@ -21,7 +21,7 @@
                           </div>
                           <div class="content-contact-telp">
                               <i class="bi bi-telephone-fill"></i>
-                              <p>(0352) 483762</p>
+                              <p>(+62) 821-3970-3726</p>
                           </div>
                           <div class="content-contact-email">
                               <i class="bi bi-envelope-fill"></i>

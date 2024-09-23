@@ -8,7 +8,8 @@
     <!-- Contact Us Start -->
     <div class="lain-lain background-terang px-4 py-5">
         <div class="title text-center">
-            <h1 class="tulisan-gelap text-center fw-bolder">Daftar Halaman</h1>
+            <h1 class="tulisan-gelap text-center fw-bolder"><i class="fa-solid fa-circle-info fa-xl"
+                    style="color: #432818 ;"></i> Pusat Informasi</h1>
             <p class="tulisan-gelap text-center fw-bolder">NB : Klik Pada Kotak Untuk Mengunjungi Halaman </p>
         </div>
         <hr>
@@ -120,6 +121,16 @@
                         <div class="card-body">
                             <h5 class="card-title tulisan-terang"><i class="fa-solid fa-circle-question fa-xl"
                                     style="color: #fff6c3;"></i> FAQ</h5>
+                        </div>
+                    </a>
+                </div>
+                {{-- End --}}
+                {{-- Card 1 --}}
+                <div class="card card-others background-gelap mb-3 col-3 mx-2 my-2">
+                    <a href="/pengumuman" class="tulisan-terang text-decoration-none">
+                        <div class="card-body">
+                            <h5 class="card-title tulisan-terang"><i class="fa-solid fa-scroll fa-xl"
+                                    style="color: #fff6c3;"></i> Pengumuman</h5>
                         </div>
                     </a>
                 </div>

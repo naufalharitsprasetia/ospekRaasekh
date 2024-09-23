@@ -71,7 +71,7 @@ class DatabaseSeeder extends Seeder
         ]);
         // 11
         Faq::create([
-            'faq_pertanyaan' => 'Ustadz, kenapa muncul keterangan Belum Ada Keputusan / Keputusan ?',
+            'faq_pertanyaan' => 'Ustadz, kenapa muncul keterangan Belum Ada Pengumuman/Keputusan ?',
             'faq_jawaban' => 'itu memang seperti itu, Karena memang belum ditentukan prodinya, nanti ditentukan nya ketika ananda sudah berada di kampus dan sudah melakukan interview...',
         ]);
         // 12
@@ -143,6 +143,31 @@ class DatabaseSeeder extends Seeder
         Faq::create([
             'faq_pertanyaan' => 'Kenapa muncul tagihan Rp. 250.000 untuk pendaftaran non-kmi, padahal anak saya lulusan kmi ?',
             'faq_jawaban' => 'Segala permasalahan pembayaran silahkan berkonsultasi pada bagian keuangan UNIDA, kontak nya sudah ada di halaman pembayaran-du <a href="/pembayaran-du">Klik Disini !</a>',
+        ]);
+        // 26
+        Faq::create([
+            'faq_pertanyaan' => 'Apakah wajib mencetak kartu tanda registrasi yang ada di Admisi ? apakah harus melunasi seluruh tagihan dulu baru bisa cetak ? bagaimana jika saya tidak bisa mencetaknya ?',
+            'faq_jawaban' => 'Ya, wajib mencetak dan print out kartu tanda registrasi bagi yang sudah bisa mencetak nya, adapun yang belum bisa / terkendala mencetaknya harap membawa bukti transfer untuk pembayaran yang sudah dibayarkan, dan insyaallah sistemnya akan segera diperbaiki agar semua nya dapat mencetak nya',
+        ]);
+        // 27
+        Faq::create([
+            'faq_pertanyaan' => 'Ustadz, bagaimana nanti anak2 untuk uang jajannya dan tabungannya , apakah memakai TabSis atau rekening masing2?',
+            'faq_jawaban' => 'Mahasiswa membawa kartu atm / rekening masing-masing untuk tabungan dan jajan nya',
+        ]);
+        // 28
+        Faq::create([
+            'faq_pertanyaan' => 'Ustadz, kalau untuk ATM/rekening apakah harus yang tertentu atau bebas apa saja ?',
+            'faq_jawaban' => 'bebas, apa saja boleh',
+        ]);
+        // 29
+        Faq::create([
+            'faq_pertanyaan' => 'Apakah di dalam kampus ada ATM ? ATM yang terdekat apa ?',
+            'faq_jawaban' => 'di kampus belum ada ATM tapi ada AgenBriLink, ATM Terdekat dari kampus adalah ATM BRI',
+        ]);
+        // 30
+        Faq::create([
+            'faq_pertanyaan' => 'Tadz, untuk Asrama Siman (putra) satu kamar berapa orang ?',
+            'faq_jawaban' => 'sekitar belasan',
         ]);
     }
 }

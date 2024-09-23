@@ -8,7 +8,7 @@
         <a href="/pembayaran-du">Pembayaran Daftar Ulang</a>
         <a href="/timeline">Timeline</a>
         <a href="/faq">FAQ</a>
-        <a href="/lainnya">Daftar Halaman</a>
+        <a href="/lainnya"><i class="fa-solid fa-circle-info fa-xl" style="color: #432818 ;"></i> Pusat Informasi</a>
     </div>
 </div>
 {{--  --}}
@@ -25,7 +25,8 @@
             <li><a href="/jurusan" id="active" class="text-decoration-none">Jurusan</a></li>
             <li><a href="/faq" id="active" class="text-decoration-none">FAQ</a></li>
             <li><a href="/kontak-kami" id="active" class="text-decoration-none">Kontak Kami</a></li>
-            <li><a href="/lainnya" id="active" class="text-decoration-none">Daftar Halaman</a></li>
+            <li><a href="/lainnya" id="active" class="text-decoration-none"><i class="fa-solid fa-circle-info fa-xl"
+                        style="color: #fff6c3;"></i> Pusat Informasi</a></li>
             <!-- <li>
           <a href="kontak-kami.html" class="kontak-kami" id="active">Kontak Kami</a>
         </li> -->

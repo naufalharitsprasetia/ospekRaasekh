@@ -154,23 +154,6 @@ nav ul li #active {
     padding-left: 10px;
 }
 
-/* .sci {
-  margin-top: 40px;
-  display: flex;
-}
-.sci li {
-  list-style: none;
-  margin-right: 15px;
-}
-.sci li a {
-  color: #fff;
-  font-size: 2em;
-  color: #ccc;
-}
-.sci li a:hover {
-  color: #fff;
-} */
-
 /* Map */
 .map {
     padding: 0;
